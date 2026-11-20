@@ -1,0 +1,11 @@
+.role-step { display:block; margin-bottom:8px; color:#4d7379; font-size:13px; font-weight:700; }
+.role-extra { margin-top:16px; }
+.role-extra summary { min-height:44px; display:flex; align-items:center; cursor:pointer; color:#28515d; font-weight:700; }
+.role-extra summary:focus-visible { outline:3px solid #16758a; outline-offset:2px; }
+.role-extra .role-grid { margin-top:8px; }
+@media (max-width:760px) { .role-step { grid-column:2; margin:0; } }
+.product-hero { padding: 28px 0 20px; }
+.product-hero h1 { font-size: 36px; }
+.product-hero .hero-art { height: 150px; transform: scale(.6); }
+.role-step, .role-description { font-size: 14px; }
+@media (max-width: 760px) { .product-hero { padding: 24px 0; } }

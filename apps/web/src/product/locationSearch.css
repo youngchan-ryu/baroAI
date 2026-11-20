@@ -1,0 +1,10 @@
+.location-search { position: relative; display: grid; gap: 0.4rem; }
+.location-search-options { position: absolute; z-index: 10; top: 100%; left: 0; right: 0; max-height: 20rem; overflow-y: auto; margin: 0; padding: 0.25rem; list-style: none; background: white; border: 1px solid #b8c3d1; border-radius: 0.5rem; box-shadow: 0 4px 12px #0002; }
+.location-search-options [role="option"], .location-search-empty { padding: 0.65rem; }
+.location-search-options [role="option"] { cursor: pointer; }
+.location-search-options [role="option"]:hover, .location-search-options .active { background: #e8f1ff; }
+
+.location-search-options ul { margin: 0; padding: 0; list-style: none; }
+.location-search-group { display: block; padding: 0.5rem 0.65rem; }
+
+fieldset:disabled .location-search-options { display: none; }

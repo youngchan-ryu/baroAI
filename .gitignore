@@ -1,0 +1,51 @@
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.prototype.example
+!**/.env.example
+*.pem
+*.key
+
+# Claude Code per-user settings (CLAUDE.md and .claude/agents are shared)
+.claude/settings.local.json
+
+# Python / JavaScript
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+
+# Local data and generated evidence (add sanitized results explicitly)
+.local/
+tmp/
+output/
+evidence/local/
+evidence/llm-metrics/
+eval/cases/raw-safety-boundaries-development-v1-result.json
+eval/cases/raw-safety-ceiling-boundaries-development-v1-result.json
+data/private/
+uploads/
+*.log
+*.sqlite*
+
+# Build outputs
+*.egg-info/
+build/
+
+# Generated Vercel function frontend
+apps/api/app/_frontend/

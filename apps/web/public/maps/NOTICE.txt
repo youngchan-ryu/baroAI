@@ -1,0 +1,7 @@
+Campus map background data
+
+© OpenStreetMap contributors. OpenStreetMap data is available under the Open Database License 1.0 (ODbL): https://www.openstreetmap.org/copyright and https://opendatacommons.org/licenses/odbl/1-0/.
+
+The data was extracted from Geofabrik's South Korea OSM snapshot of 2026-11-14: https://download.geofabrik.de/asia/south-korea.html. It has been processed into WGS84 GeoJSON containing selected building outlines, roads and paths for five campus bounding boxes. Bounding-box intersecting ways are included whole and can extend well beyond the intended viewport. The data can be incomplete or out of date and is not a surveyed or verified building-location dataset. No OSM tile images are included.
+
+Source, reproducibility and checksums: data/campus-profile/map-source/README.md in the project source distribution. Processing script: scripts/build_campus_basemaps.py.

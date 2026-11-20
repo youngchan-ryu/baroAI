@@ -1,0 +1,1024 @@
+{
+  "schema_version": 1,
+  "description": "현재 직접 의존성의 로컬 설치 metadata 및 원문 후보. 법률 검토나 전이 의존성 전체 조사가 아님.",
+  "source_bases": {
+    "python-site-packages": "격리 설치본 source/.venv/lib/python3.12/site-packages",
+    "web-node-modules": "격리 설치본 source/apps/web/node_modules (pnpm 저장 경로 포함)"
+  },
+  "items": [
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "fastapi",
+      "manifest_specifier": "fastapi>=0.115,<1",
+      "locked_version": "0.159.1",
+      "installed_version": "0.159.1",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "fastapi-0.159.1.dist-info/licenses/LICENSE",
+          "path": "python/fastapi@0.159.1/fastapi-0.159.1.dist-info/licenses/LICENSE",
+          "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
+          "size": 1086,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "pydantic",
+      "manifest_specifier": "pydantic>=2.10,<3",
+      "locked_version": "2.14.1",
+      "installed_version": "2.14.1",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "pydantic-2.14.1.dist-info/licenses/LICENSE",
+          "path": "python/pydantic@2.14.1/pydantic-2.14.1.dist-info/licenses/LICENSE",
+          "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+          "size": 1129,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "pydantic-settings",
+      "manifest_specifier": "pydantic-settings>=2.7,<3",
+      "locked_version": "2.16.1",
+      "installed_version": "2.16.1",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "pydantic_settings-2.16.1.dist-info/licenses/LICENSE",
+          "path": "python/pydantic-settings@2.16.1/pydantic_settings-2.16.1.dist-info/licenses/LICENSE",
+          "sha256": "eb355a753e020346d33d83bf9769135b89fc610568ac531a01c295bcee7fd998",
+          "size": 1103,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "sqlalchemy",
+      "manifest_specifier": "sqlalchemy[asyncio]>=2.0.36,<2.1",
+      "locked_version": "2.0.55",
+      "installed_version": "2.0.55",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE",
+        "AUTHORS"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "sqlalchemy-2.0.55.dist-info/licenses/AUTHORS",
+          "path": "python/sqlalchemy@2.0.55/sqlalchemy-2.0.55.dist-info/licenses/AUTHORS",
+          "sha256": "dc1db0b5d17455adc37b693ff8e409c9a80f603e441695825518c36f786c963e",
+          "size": 492,
+          "classification": "license-or-notice-candidate"
+        },
+        {
+          "source_base": "python-site-packages",
+          "source_path": "sqlalchemy-2.0.55.dist-info/licenses/LICENSE",
+          "path": "python/sqlalchemy@2.0.55/sqlalchemy-2.0.55.dist-info/licenses/LICENSE",
+          "sha256": "e862bb5b904fb5513c3e14288d7a25a12eb0ecc7847a0a965d310e9a955e7cb9",
+          "size": 1100,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "asyncpg",
+      "manifest_specifier": "asyncpg>=0.30,<1",
+      "locked_version": "0.32.0",
+      "installed_version": "0.32.0",
+      "lock_matches_install": true,
+      "metadata_license": "Apache-2.0",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "asyncpg-0.32.0.dist-info/licenses/LICENSE",
+          "path": "python/asyncpg@0.32.0/asyncpg-0.32.0.dist-info/licenses/LICENSE",
+          "sha256": "d9222d73fdac50992174076efa04f44f6fbcd9d56155a7c7092e98757042a6f6",
+          "size": 11466,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "alembic",
+      "manifest_specifier": "alembic>=1.14,<2",
+      "locked_version": "1.20.1",
+      "installed_version": "1.20.1",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "alembic-1.20.1.dist-info/licenses/LICENSE",
+          "path": "python/alembic@1.20.1/alembic-1.20.1.dist-info/licenses/LICENSE",
+          "sha256": "6e68d94a03a0e3e327ddf3e86d1ebedc14eece3922022618fc246a36296fd0cc",
+          "size": 1059,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "uvicorn",
+      "manifest_specifier": "uvicorn>=0.34,<1",
+      "locked_version": "0.54.0",
+      "installed_version": "0.54.0",
+      "lock_matches_install": true,
+      "metadata_license": "BSD-3-Clause",
+      "metadata_license_files": [
+        "LICENSE.md"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "uvicorn-0.54.0.dist-info/licenses/LICENSE.md",
+          "path": "python/uvicorn@0.54.0/uvicorn-0.54.0.dist-info/licenses/LICENSE.md",
+          "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+          "size": 1526,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "pillow",
+      "manifest_specifier": "pillow>=13,<14",
+      "locked_version": "13.0.0",
+      "installed_version": "13.0.0",
+      "lock_matches_install": true,
+      "metadata_license": "MIT-CMU",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "pillow-13.0.0.dist-info/licenses/LICENSE",
+          "path": "python/pillow@13.0.0/pillow-13.0.0.dist-info/licenses/LICENSE",
+          "sha256": "dda12a98c1979cf3d94df1cff45d27a4cb3f04a60c76f76902ac54cac03ec0ce",
+          "size": 70307,
+          "classification": "license-and-bundled-third-party-notices"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "python-multipart",
+      "manifest_specifier": "python-multipart>=0.0.20,<1",
+      "locked_version": "0.0.32",
+      "installed_version": "0.0.32",
+      "lock_matches_install": true,
+      "metadata_license": "Apache-2.0",
+      "metadata_license_files": [
+        "LICENSE.txt"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "python_multipart-0.0.32.dist-info/licenses/LICENSE.txt",
+          "path": "python/python-multipart@0.0.32/python_multipart-0.0.32.dist-info/licenses/LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "size": 11358,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "opencv-python-headless",
+      "manifest_specifier": "opencv-python-headless>=4.13,<5",
+      "locked_version": "4.14.0.94",
+      "installed_version": "4.14.0.94",
+      "lock_matches_install": true,
+      "metadata_license": "Apache 2.0",
+      "metadata_license_files": [
+        "LICENSE-3RD-PARTY.txt",
+        "LICENSE.txt"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "cv2/LICENSE-3RD-PARTY.txt",
+          "path": "python/opencv-python-headless@4.14.0.94/cv2/LICENSE-3RD-PARTY.txt",
+          "sha256": "36bae33968d5e67f66906bc595949cb78d65978604e7392f552a79006c93cf2c",
+          "size": 179306,
+          "classification": "bundled-third-party-notice"
+        },
+        {
+          "source_base": "python-site-packages",
+          "source_path": "cv2/LICENSE.txt",
+          "path": "python/opencv-python-headless@4.14.0.94/cv2/LICENSE.txt",
+          "sha256": "09d719058e782ac7bc71ba21c944e1136cde2bb957c0e888121f0218d6b5f02c",
+          "size": 1070,
+          "classification": "license-or-notice-candidate"
+        },
+        {
+          "source_base": "python-site-packages",
+          "source_path": "opencv_python_headless-4.14.0.94.dist-info/LICENSE-3RD-PARTY.txt",
+          "path": "python/opencv-python-headless@4.14.0.94/opencv_python_headless-4.14.0.94.dist-info/LICENSE-3RD-PARTY.txt",
+          "sha256": "36bae33968d5e67f66906bc595949cb78d65978604e7392f552a79006c93cf2c",
+          "size": 179306,
+          "classification": "bundled-third-party-notice"
+        },
+        {
+          "source_base": "python-site-packages",
+          "source_path": "opencv_python_headless-4.14.0.94.dist-info/LICENSE.txt",
+          "path": "python/opencv-python-headless@4.14.0.94/opencv_python_headless-4.14.0.94.dist-info/LICENSE.txt",
+          "sha256": "09d719058e782ac7bc71ba21c944e1136cde2bb957c0e888121f0218d6b5f02c",
+          "size": 1070,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "arq",
+      "manifest_specifier": "arq==0.28.0",
+      "locked_version": "0.28.0",
+      "installed_version": "0.28.0",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "arq-0.28.0.dist-info/licenses/LICENSE",
+          "path": "python/arq@0.28.0/arq-0.28.0.dist-info/licenses/LICENSE",
+          "sha256": "f72b9425e837e0cf59b335f6a37e6eb916bcf02544d756168d136139627e3483",
+          "size": 1110,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "ortools",
+      "manifest_specifier": "ortools==9.15.6755",
+      "locked_version": "9.15.6755",
+      "installed_version": "9.15.6755",
+      "lock_matches_install": true,
+      "metadata_license": "Apache 2.0",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "ortools-9.15.6755.dist-info/licenses/LICENSE",
+          "path": "python/ortools@9.15.6755/ortools-9.15.6755.dist-info/licenses/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "size": 11358,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "cryptography",
+      "manifest_specifier": "cryptography>=46,<47",
+      "locked_version": "46.0.7",
+      "installed_version": "46.0.7",
+      "lock_matches_install": true,
+      "metadata_license": "Apache-2.0 OR BSD-3-Clause",
+      "metadata_license_files": [
+        "LICENSE",
+        "LICENSE.APACHE",
+        "LICENSE.BSD"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "cryptography-46.0.7.dist-info/licenses/LICENSE",
+          "path": "python/cryptography@46.0.7/cryptography-46.0.7.dist-info/licenses/LICENSE",
+          "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb",
+          "size": 197,
+          "classification": "license-or-notice-candidate"
+        },
+        {
+          "source_base": "python-site-packages",
+          "source_path": "cryptography-46.0.7.dist-info/licenses/LICENSE.APACHE",
+          "path": "python/cryptography@46.0.7/cryptography-46.0.7.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe",
+          "size": 11360,
+          "classification": "license-or-notice-candidate"
+        },
+        {
+          "source_base": "python-site-packages",
+          "source_path": "cryptography-46.0.7.dist-info/licenses/LICENSE.BSD",
+          "path": "python/cryptography@46.0.7/cryptography-46.0.7.dist-info/licenses/LICENSE.BSD",
+          "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb",
+          "size": 1532,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "openpyxl",
+      "manifest_specifier": "openpyxl>=3.1.5,<3.2",
+      "locked_version": "3.1.5",
+      "installed_version": "3.1.5",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENCE.rst"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "openpyxl-3.1.5.dist-info/LICENCE.rst",
+          "path": "python/openpyxl@3.1.5/openpyxl-3.1.5.dist-info/LICENCE.rst",
+          "sha256": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e",
+          "size": 1131,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "runtime",
+      "name": "defusedxml",
+      "manifest_specifier": "defusedxml>=0.7.1,<0.8",
+      "locked_version": "0.7.1",
+      "installed_version": "0.7.1",
+      "lock_matches_install": true,
+      "metadata_license": "PSFL",
+      "metadata_license_files": [],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "defusedxml-0.7.1.dist-info/LICENSE",
+          "path": "python/defusedxml@0.7.1/defusedxml-0.7.1.dist-info/LICENSE",
+          "sha256": "b80ce9da8c42a1f91079627fbbe2bf27210ae108a0ffe5f077d5b08e076c24c8",
+          "size": 2409,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "dev",
+      "name": "httpx",
+      "manifest_specifier": "httpx>=0.28,<1",
+      "locked_version": "0.28.1",
+      "installed_version": "0.28.1",
+      "lock_matches_install": true,
+      "metadata_license": "BSD-3-Clause",
+      "metadata_license_files": [],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "httpx-0.28.1.dist-info/licenses/LICENSE.md",
+          "path": "python/httpx@0.28.1/httpx-0.28.1.dist-info/licenses/LICENSE.md",
+          "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d",
+          "size": 1508,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "dev",
+      "name": "pytest",
+      "manifest_specifier": "pytest>=8.3,<10",
+      "locked_version": "9.1.1",
+      "installed_version": "9.1.1",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "pytest-9.1.1.dist-info/licenses/LICENSE",
+          "path": "python/pytest@9.1.1/pytest-9.1.1.dist-info/licenses/LICENSE",
+          "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b",
+          "size": 1091,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "dev",
+      "name": "pytest-asyncio",
+      "manifest_specifier": "pytest-asyncio>=0.25,<2",
+      "locked_version": "1.4.0",
+      "installed_version": "1.4.0",
+      "lock_matches_install": true,
+      "metadata_license": "Apache-2.0",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "pytest_asyncio-1.4.0.dist-info/licenses/LICENSE",
+          "path": "python/pytest-asyncio@1.4.0/pytest_asyncio-1.4.0.dist-info/licenses/LICENSE",
+          "sha256": "a8ad31b1c3f40dca5a84119351b8fa8ddc868edd77fad8a8ebf6d8f2d16fa4ae",
+          "size": 11324,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "python",
+      "group": "dev",
+      "name": "ruff",
+      "manifest_specifier": "ruff>=0.9,<1",
+      "locked_version": "0.17.1",
+      "installed_version": "0.17.1",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_base": "python-site-packages",
+          "source_path": "ruff-0.17.1.dist-info/licenses/LICENSE",
+          "path": "python/ruff@0.17.1/ruff-0.17.1.dist-info/licenses/LICENSE",
+          "sha256": "2597d854122b77ddc71971564ca2350a37608575ce324adc5650a2b2051c8f18",
+          "size": 20731,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "ecosystem": "npm",
+      "group": "runtime",
+      "name": "@tanstack/react-query",
+      "manifest_specifier": "5.104.5",
+      "locked_version": "5.104.5",
+      "installed_version": "5.104.5",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/@tanstack+react-query@5.104.5_@types+react@19.3.0_react@19.3.1/node_modules/@tanstack/react-query/LICENSE",
+          "path": "npm/@tanstack__react-query@5.104.5/LICENSE",
+          "sha256": "a405ee70c632bb938acb7ac5f210e814409b3760ea9d2329d8ed8ffcfd11a0e7",
+          "size": 1079,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "5.104.5"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "runtime",
+      "name": "i18next",
+      "manifest_specifier": "26.5.5",
+      "locked_version": "26.5.5",
+      "installed_version": "26.5.5",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/i18next@26.5.5_typescript@5.9.3/node_modules/i18next/LICENSE",
+          "path": "npm/i18next@26.5.5/LICENSE",
+          "sha256": "1cd0a2b02a6cc40ef8ee16310d13eeffdd7b5de4a562fd3ee7c921d8eb54f60a",
+          "size": 1082,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "26.5.5"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "runtime",
+      "name": "react",
+      "manifest_specifier": "19.3.1",
+      "locked_version": "19.3.1",
+      "installed_version": "19.3.1",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/react@19.3.1/node_modules/react/LICENSE",
+          "path": "npm/react@19.3.1/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "size": 1088,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "19.3.1"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "runtime",
+      "name": "react-dom",
+      "manifest_specifier": "19.3.1",
+      "locked_version": "19.3.1",
+      "installed_version": "19.3.1",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/react-dom@19.3.1_react@19.3.1/node_modules/react-dom/LICENSE",
+          "path": "npm/react-dom@19.3.1/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "size": 1088,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "19.3.1"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "runtime",
+      "name": "react-i18next",
+      "manifest_specifier": "17.1.2",
+      "locked_version": "17.1.2",
+      "installed_version": "17.1.2",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/react-i18next@17.1.2_i18next@26.5.5_typescript@5.9.3__react-dom@19.3.1_react@19.3.1__react@19.3.1_typescript@5.9.3/node_modules/react-i18next/LICENSE",
+          "path": "npm/react-i18next@17.1.2/LICENSE",
+          "sha256": "29b8ae456ef442e53a98df183ad088cf98c2ece73aa84c462330c43e665b8ab2",
+          "size": 1083,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "17.1.2"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "runtime",
+      "name": "react-router",
+      "manifest_specifier": "8.5.0",
+      "locked_version": "8.5.0",
+      "installed_version": "8.5.0",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/react-router@8.5.0_@types+react-dom@19.3.0_@types+react@19.3.0__@types+react@19.3.0_rea_6cb9623782d1813d65fa0efb9041c376/node_modules/react-router/LICENSE.md",
+          "path": "npm/react-router@8.5.0/LICENSE.md",
+          "sha256": "77c9ee6a9c5d5782fb0c50b50d101189116314c14f7df0a1b0d385fc96a7ba49",
+          "size": 1161,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "8.5.0"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "@eslint/js",
+      "manifest_specifier": "10.0.1",
+      "locked_version": "10.0.1",
+      "installed_version": "10.0.1",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/@eslint+js@10.0.1_eslint@10.13.0_supports-color@10.2.2_/node_modules/@eslint/js/LICENSE",
+          "path": "npm/@eslint__js@10.0.1/LICENSE",
+          "sha256": "3b6be04f862a077a4b97929dbf247299360824d9365f8603c263769303ace18c",
+          "size": 1094,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "10.0.1"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "@testing-library/jest-dom",
+      "manifest_specifier": "7.0.1",
+      "locked_version": "7.0.1",
+      "installed_version": "7.0.1",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/@testing-library+jest-dom@7.0.1_@testing-library+dom@10.4.2_vitest@5.0.5_@types+node@26_8cfb5c40a960e564e276392b49be1096/node_modules/@testing-library/jest-dom/LICENSE",
+          "path": "npm/@testing-library__jest-dom@7.0.1/LICENSE",
+          "sha256": "bf8fd38056b7606deccfcadb4d8ca1c210082d8ef5513426d2650daedc30bed3",
+          "size": 1079,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "7.0.1"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "@testing-library/react",
+      "manifest_specifier": "16.3.3",
+      "locked_version": "16.3.3",
+      "installed_version": "16.3.3",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/@testing-library+react@16.3.3_@testing-library+dom@10.4.2_@types+react-dom@19.3.0_@type_caf0c89dcd807677af52e2a43e70eff8/node_modules/@testing-library/react/LICENSE",
+          "path": "npm/@testing-library__react@16.3.3/LICENSE",
+          "sha256": "9680978280d509520d2a7b51e93ffbf7d9ec2b9de4411a6989daba5b659048e0",
+          "size": 1087,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "16.3.3"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "@testing-library/user-event",
+      "manifest_specifier": "14.6.8",
+      "locked_version": "14.6.8",
+      "installed_version": "14.6.8",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/@testing-library+user-event@14.6.8_@testing-library+dom@10.4.2/node_modules/@testing-library/user-event/LICENSE",
+          "path": "npm/@testing-library__user-event@14.6.8/LICENSE",
+          "sha256": "b5a4028c49c48f820831421de69c8ea83d621a062914bf16739fd0703c7c9fba",
+          "size": 1081,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "14.6.8"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "@types/node",
+      "manifest_specifier": "26.6.5",
+      "locked_version": "26.6.5",
+      "installed_version": "26.6.5",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/@types+node@26.6.5/node_modules/@types/node/LICENSE",
+          "path": "npm/@types__node@26.6.5/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "size": 1141,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "26.6.5"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "@types/react",
+      "manifest_specifier": "19.3.0",
+      "locked_version": "19.3.0",
+      "installed_version": "19.3.0",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/@types+react@19.3.0/node_modules/@types/react/LICENSE",
+          "path": "npm/@types__react@19.3.0/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "size": 1141,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "19.3.0"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "@types/react-dom",
+      "manifest_specifier": "19.3.0",
+      "locked_version": "19.3.0",
+      "installed_version": "19.3.0",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/@types+react-dom@19.3.0_@types+react@19.3.0/node_modules/@types/react-dom/LICENSE",
+          "path": "npm/@types__react-dom@19.3.0/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "size": 1141,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "19.3.0"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "@vitejs/plugin-react",
+      "manifest_specifier": "6.1.2",
+      "locked_version": "6.1.2",
+      "installed_version": "6.1.2",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/@vitejs+plugin-react@6.1.2_vite@8.3.5_@types+node@26.6.5_/node_modules/@vitejs/plugin-react/LICENSE",
+          "path": "npm/@vitejs__plugin-react@6.1.2/LICENSE",
+          "sha256": "29b68325fe026047d13e187b44c33b2acacf7dc647dec4583702e59f235e13b5",
+          "size": 1103,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "6.1.2"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "eslint",
+      "manifest_specifier": "10.13.0",
+      "locked_version": "10.13.0",
+      "installed_version": "10.13.0",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/eslint@10.13.0_supports-color@10.2.2/node_modules/eslint/LICENSE",
+          "path": "npm/eslint@10.13.0/LICENSE",
+          "sha256": "3b6be04f862a077a4b97929dbf247299360824d9365f8603c263769303ace18c",
+          "size": 1094,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "10.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "eslint-plugin-react-hooks",
+      "manifest_specifier": "7.1.1",
+      "locked_version": "7.1.1",
+      "installed_version": "7.1.1",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/eslint-plugin-react-hooks@7.1.1_eslint@10.13.0_supports-color@10.2.2__supports-color@10.2.2/node_modules/eslint-plugin-react-hooks/LICENSE",
+          "path": "npm/eslint-plugin-react-hooks@7.1.1/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "size": 1088,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "7.1.1"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "eslint-plugin-react-refresh",
+      "manifest_specifier": "0.5.7",
+      "locked_version": "0.5.7",
+      "installed_version": "0.5.7",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/eslint-plugin-react-refresh@0.5.7_eslint@10.13.0_supports-color@10.2.2_/node_modules/eslint-plugin-react-refresh/LICENSE",
+          "path": "npm/eslint-plugin-react-refresh@0.5.7/LICENSE",
+          "sha256": "fba570176c68f716676e04cad6c39fb56b763e44fc11be22fe6863ff19092a9b",
+          "size": 1098,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "0.5.7"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "jsdom",
+      "manifest_specifier": "30.1.3",
+      "locked_version": "30.1.3",
+      "installed_version": "30.1.3",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/jsdom@30.1.3/node_modules/jsdom/LICENSE.txt",
+          "path": "npm/jsdom@30.1.3/LICENSE.txt",
+          "sha256": "242d37e7cab25cbafc36cc973ee88f9345fddf066afe4f72b7ac3d9ad4e24cce",
+          "size": 1056,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "30.1.3"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "openapi-typescript",
+      "manifest_specifier": "7.13.0",
+      "locked_version": "7.13.0",
+      "installed_version": "7.13.0",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/openapi-typescript@7.13.0_typescript@5.9.3/node_modules/openapi-typescript/LICENSE",
+          "path": "npm/openapi-typescript@7.13.0/LICENSE",
+          "sha256": "ed4b2c8f3a9aad2bd9fb8088d3e2a142116a13627c7223c28315c65e3ab9bd41",
+          "size": 1068,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "7.13.0"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "typescript",
+      "manifest_specifier": "5.9.3",
+      "locked_version": "5.9.3",
+      "installed_version": "5.9.3",
+      "lock_matches_install": true,
+      "metadata_license": "Apache-2.0",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/typescript@5.9.3/node_modules/typescript/LICENSE.txt",
+          "path": "npm/typescript@5.9.3/LICENSE.txt",
+          "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+          "size": 9197,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "5.9.3"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "typescript-eslint",
+      "manifest_specifier": "8.72.0",
+      "locked_version": "8.72.0",
+      "installed_version": "8.72.0",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/typescript-eslint@8.72.0_eslint@10.13.0_supports-color@10.2.2__supports-color@10.2.2_typescript@5.9.3/node_modules/typescript-eslint/LICENSE",
+          "path": "npm/typescript-eslint@8.72.0/LICENSE",
+          "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0",
+          "size": 1097,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "8.72.0"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "vite",
+      "manifest_specifier": "8.3.5",
+      "locked_version": "8.3.5",
+      "installed_version": "8.3.5",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/vite@8.3.5_@types+node@26.6.5/node_modules/vite/LICENSE.md",
+          "path": "npm/vite@8.3.5/LICENSE.md",
+          "sha256": "a22152baa1aef74402443008e767e7c689a524c0909d19b0431d97f5ab066a13",
+          "size": 98196,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "8.3.5"
+    },
+    {
+      "ecosystem": "npm",
+      "group": "dev",
+      "name": "vitest",
+      "manifest_specifier": "5.0.5",
+      "locked_version": "5.0.5",
+      "installed_version": "5.0.5",
+      "lock_matches_install": true,
+      "metadata_license": "MIT",
+      "files": [
+        {
+          "source_base": "web-node-modules",
+          "source_path": ".pnpm/vitest@5.0.5_@types+node@26.6.5_jsdom@30.1.3_vite@8.3.5_@types+node@26.6.5_/node_modules/vitest/LICENSE.md",
+          "path": "npm/vitest@5.0.5/LICENSE.md",
+          "sha256": "78fbac9e571c2ee260deb2a1941a8a18f0a85e3f39c23d08e2dcee6da4841998",
+          "size": 45239,
+          "classification": "license-or-notice-candidate"
+        }
+      ],
+      "notes": [],
+      "lock_manifest_specifier": "5.0.5"
+    }
+  ],
+  "lock_evidence": {
+    "python": "apps/api/uv.lock의 해당 distribution 버전과 설치 metadata 대조",
+    "npm": "apps/web/pnpm-lock.yaml의 두 번째 YAML 문서 importer specifier 및 version과 설치 package.json 대조; node_modules/.pnpm/lock.yaml은 설치결과 보조 증거"
+  }
+}

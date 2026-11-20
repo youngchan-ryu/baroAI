@@ -1,0 +1,5584 @@
+{
+  "schema_version": 1,
+  "scope": "API runtime metadata closure only; current local installed Darwin arm64 CPython 3.12.8; not Linux, npm transitive or native bundled components",
+  "source_base": "격리 설치본 source/.venv/lib/python3.12/site-packages",
+  "marker_environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.12.8",
+    "os_name": "posix",
+    "platform_machine": "arm64",
+    "platform_release": "25.6.0",
+    "platform_system": "Darwin",
+    "platform_version": "Darwin Kernel Version 25.6.0: Fri Jul 31 19:17:26 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T6041",
+    "python_full_version": "3.12.8",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.12",
+    "sys_platform": "darwin"
+  },
+  "algorithm": "PEP 508 marker evaluated for empty and each accumulated parent extra; child receives only extras explicitly requested by its requirement; reevaluate on new extras",
+  "roots": [
+    {
+      "requirement": "fastapi>=0.115,<1",
+      "name": "fastapi",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "0.159.1",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "pydantic>=2.10,<3",
+      "name": "pydantic",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2.14.1",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "pydantic-settings>=2.7,<3",
+      "name": "pydantic-settings",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2.16.1",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "sqlalchemy[asyncio]>=2.0.36,<2.1",
+      "name": "sqlalchemy",
+      "requested_extras": [
+        "asyncio"
+      ],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2.0.55",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "asyncpg>=0.30,<1",
+      "name": "asyncpg",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "0.32.0",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "alembic>=1.14,<2",
+      "name": "alembic",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "1.20.1",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "uvicorn>=0.34,<1",
+      "name": "uvicorn",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "0.54.0",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "pillow>=13,<14",
+      "name": "pillow",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "13.0.0",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "python-multipart>=0.0.20,<1",
+      "name": "python-multipart",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "0.0.32",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "opencv-python-headless>=4.13,<5",
+      "name": "opencv-python-headless",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "4.14.0.94",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "arq==0.28.0",
+      "name": "arq",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "0.28.0",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "ortools==9.15.6755",
+      "name": "ortools",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "9.15.6755",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "cryptography>=46,<47",
+      "name": "cryptography",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "46.0.7",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "openpyxl>=3.1.5,<3.2",
+      "name": "openpyxl",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "3.1.5",
+      "specifier_satisfied": true
+    },
+    {
+      "requirement": "defusedxml>=0.7.1,<0.8",
+      "name": "defusedxml",
+      "requested_extras": [],
+      "marker_results": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "0.7.1",
+      "specifier_satisfied": true
+    }
+  ],
+  "packages": [
+    {
+      "name": "absl-py",
+      "metadata_name": "absl-py",
+      "installed_version": "2.5.1",
+      "locked_versions": [
+        "2.5.1"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "Apache-2.0",
+      "metadata_license_files": [
+        "AUTHORS",
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "absl_py-2.5.1.dist-info/licenses/AUTHORS",
+          "path": "python-runtime-transitive/absl-py@2.5.1/absl_py-2.5.1.dist-info/licenses/AUTHORS",
+          "sha256": "6282ee76cca569083b5b998b9f816ba1032e127b8dc7c46942b86477fc6fbfa5",
+          "size": 296,
+          "reused": false
+        },
+        {
+          "source_path": "absl_py-2.5.1.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/absl-py@2.5.1/absl_py-2.5.1.dist-info/licenses/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "size": 11358,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "alembic",
+      "metadata_name": "alembic",
+      "installed_version": "1.20.1",
+      "locked_versions": [
+        "1.20.1"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "alembic-1.20.1.dist-info/licenses/LICENSE",
+          "path": "python/alembic@1.20.1/alembic-1.20.1.dist-info/licenses/LICENSE",
+          "sha256": "6e68d94a03a0e3e327ddf3e86d1ebedc14eece3922022618fc246a36296fd0cc",
+          "size": 1059,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "annotated-doc",
+      "metadata_name": "annotated-doc",
+      "installed_version": "0.0.5",
+      "locked_versions": [
+        "0.0.5"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "annotated_doc-0.0.5.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/annotated-doc@0.0.5/annotated_doc-0.0.5.dist-info/licenses/LICENSE",
+          "sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf",
+          "size": 1086,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "annotated-types",
+      "metadata_name": "annotated-types",
+      "installed_version": "0.8.0",
+      "locked_versions": [
+        "0.8.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "annotated_types-0.8.0.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/annotated-types@0.8.0/annotated_types-0.8.0.dist-info/licenses/LICENSE",
+          "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d",
+          "size": 1083,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "anyio",
+      "metadata_name": "anyio",
+      "installed_version": "4.15.1",
+      "locked_versions": [
+        "4.15.1"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "anyio-4.15.1.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/anyio@4.15.1/anyio-4.15.1.dist-info/licenses/LICENSE",
+          "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+          "size": 1081,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "arq",
+      "metadata_name": "arq",
+      "installed_version": "0.28.0",
+      "locked_versions": [
+        "0.28.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "arq-0.28.0.dist-info/licenses/LICENSE",
+          "path": "python/arq@0.28.0/arq-0.28.0.dist-info/licenses/LICENSE",
+          "sha256": "f72b9425e837e0cf59b335f6a37e6eb916bcf02544d756168d136139627e3483",
+          "size": 1110,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "asyncpg",
+      "metadata_name": "asyncpg",
+      "installed_version": "0.32.0",
+      "locked_versions": [
+        "0.32.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "Apache-2.0",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "asyncpg-0.32.0.dist-info/licenses/LICENSE",
+          "path": "python/asyncpg@0.32.0/asyncpg-0.32.0.dist-info/licenses/LICENSE",
+          "sha256": "d9222d73fdac50992174076efa04f44f6fbcd9d56155a7c7092e98757042a6f6",
+          "size": 11466,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "cffi",
+      "metadata_name": "cffi",
+      "installed_version": "2.1.1",
+      "locked_versions": [
+        "2.1.1"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT-0",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "cffi-2.1.1.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/cffi@2.1.1/cffi-2.1.1.dist-info/licenses/LICENSE",
+          "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63",
+          "size": 1123,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "click",
+      "metadata_name": "click",
+      "installed_version": "8.5.0",
+      "locked_versions": [
+        "8.5.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "BSD-3-Clause",
+      "metadata_license_files": [
+        "LICENSE.txt"
+      ],
+      "files": [
+        {
+          "source_path": "click-8.5.0.dist-info/licenses/LICENSE.txt",
+          "path": "python-runtime-transitive/click@8.5.0/click-8.5.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+          "size": 1475,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "cryptography",
+      "metadata_name": "cryptography",
+      "installed_version": "46.0.7",
+      "locked_versions": [
+        "46.0.7"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "Apache-2.0 OR BSD-3-Clause",
+      "metadata_license_files": [
+        "LICENSE",
+        "LICENSE.APACHE",
+        "LICENSE.BSD"
+      ],
+      "files": [
+        {
+          "source_path": "cryptography-46.0.7.dist-info/licenses/LICENSE",
+          "path": "python/cryptography@46.0.7/cryptography-46.0.7.dist-info/licenses/LICENSE",
+          "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb",
+          "size": 197,
+          "reused": true
+        },
+        {
+          "source_path": "cryptography-46.0.7.dist-info/licenses/LICENSE.APACHE",
+          "path": "python/cryptography@46.0.7/cryptography-46.0.7.dist-info/licenses/LICENSE.APACHE",
+          "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe",
+          "size": 11360,
+          "reused": true
+        },
+        {
+          "source_path": "cryptography-46.0.7.dist-info/licenses/LICENSE.BSD",
+          "path": "python/cryptography@46.0.7/cryptography-46.0.7.dist-info/licenses/LICENSE.BSD",
+          "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb",
+          "size": 1532,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "defusedxml",
+      "metadata_name": "defusedxml",
+      "installed_version": "0.7.1",
+      "locked_versions": [
+        "0.7.1"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "PSFL",
+      "metadata_license_files": [],
+      "files": [
+        {
+          "source_path": "defusedxml-0.7.1.dist-info/LICENSE",
+          "path": "python/defusedxml@0.7.1/defusedxml-0.7.1.dist-info/LICENSE",
+          "sha256": "b80ce9da8c42a1f91079627fbbe2bf27210ae108a0ffe5f077d5b08e076c24c8",
+          "size": 2409,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "et-xmlfile",
+      "metadata_name": "et_xmlfile",
+      "installed_version": "2.0.0",
+      "locked_versions": [
+        "2.0.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENCE.python",
+        "LICENCE.rst",
+        "AUTHORS.txt"
+      ],
+      "files": [
+        {
+          "source_path": "et_xmlfile-2.0.0.dist-info/AUTHORS.txt",
+          "path": "python-runtime-transitive/et-xmlfile@2.0.0/et_xmlfile-2.0.0.dist-info/AUTHORS.txt",
+          "sha256": "7f038029ea5463605dd2278d300099a381bce9e90dda83ccab2042346b6c8107",
+          "size": 82,
+          "reused": false
+        },
+        {
+          "source_path": "et_xmlfile-2.0.0.dist-info/LICENCE.python",
+          "path": "python-runtime-transitive/et-xmlfile@2.0.0/et_xmlfile-2.0.0.dist-info/LICENCE.python",
+          "sha256": "4ccdaaebc0f44b83720ec0399bb7ab329adce067dd62f73c5535a2dc05628ab2",
+          "size": 14688,
+          "reused": false
+        },
+        {
+          "source_path": "et_xmlfile-2.0.0.dist-info/LICENCE.rst",
+          "path": "python-runtime-transitive/et-xmlfile@2.0.0/et_xmlfile-2.0.0.dist-info/LICENCE.rst",
+          "sha256": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e",
+          "size": 1131,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "fastapi",
+      "metadata_name": "fastapi",
+      "installed_version": "0.159.1",
+      "locked_versions": [
+        "0.159.1"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "fastapi-0.159.1.dist-info/licenses/LICENSE",
+          "path": "python/fastapi@0.159.1/fastapi-0.159.1.dist-info/licenses/LICENSE",
+          "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
+          "size": 1086,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "greenlet",
+      "metadata_name": "greenlet",
+      "installed_version": "3.5.6",
+      "locked_versions": [
+        "3.5.6"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT AND PSF-2.0",
+      "metadata_license_files": [
+        "LICENSE",
+        "LICENSE.PSF"
+      ],
+      "files": [
+        {
+          "source_path": "greenlet-3.5.6.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/greenlet@3.5.6/greenlet-3.5.6.dist-info/licenses/LICENSE",
+          "sha256": "769831d6e5dfaf2c20802faccff1fafb4c2025dd8f6253dfa47fcad59d4d0979",
+          "size": 1434,
+          "reused": false
+        },
+        {
+          "source_path": "greenlet-3.5.6.dist-info/licenses/LICENSE.PSF",
+          "path": "python-runtime-transitive/greenlet@3.5.6/greenlet-3.5.6.dist-info/licenses/LICENSE.PSF",
+          "sha256": "e5ff3c23c110e494cd7d736c10fd96d462457bafeca310840db6527298c7d46b",
+          "size": 2424,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "h11",
+      "metadata_name": "h11",
+      "installed_version": "0.16.0",
+      "locked_versions": [
+        "0.16.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE.txt"
+      ],
+      "files": [
+        {
+          "source_path": "h11-0.16.0.dist-info/licenses/LICENSE.txt",
+          "path": "python-runtime-transitive/h11@0.16.0/h11-0.16.0.dist-info/licenses/LICENSE.txt",
+          "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+          "size": 1124,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "hiredis",
+      "metadata_name": "hiredis",
+      "installed_version": "3.5.0",
+      "locked_versions": [
+        "3.5.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "hiredis-3.5.0.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/hiredis@3.5.0/hiredis-3.5.0.dist-info/licenses/LICENSE",
+          "sha256": "3256b5b77e98aa34ff31a4d2c2c10f7f177b0f3058753a6044430a168987353b",
+          "size": 1095,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "idna",
+      "metadata_name": "idna",
+      "installed_version": "3.20",
+      "locked_versions": [
+        "3.20"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "BSD-3-Clause",
+      "metadata_license_files": [
+        "LICENSE.md"
+      ],
+      "files": [
+        {
+          "source_path": "idna-3.20.dist-info/licenses/LICENSE.md",
+          "path": "python-runtime-transitive/idna@3.20/idna-3.20.dist-info/licenses/LICENSE.md",
+          "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+          "size": 1541,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "immutabledict",
+      "metadata_name": "immutabledict",
+      "installed_version": "4.3.1",
+      "locked_versions": [
+        "4.3.1"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "immutabledict-4.3.1.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/immutabledict@4.3.1/immutabledict-4.3.1.dist-info/licenses/LICENSE",
+          "sha256": "347f918d37d4e0556a0695d34b9fb87fa9bbe808d54949851789c6c1fc91c61f",
+          "size": 1072,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "mako",
+      "metadata_name": "Mako",
+      "installed_version": "1.4.3",
+      "locked_versions": [
+        "1.4.3"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "mako-1.4.3.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/mako@1.4.3/mako-1.4.3.dist-info/licenses/LICENSE",
+          "sha256": "8c1d171bc5d341ad9cd33d5e2c39b96a82c7bd49b3ae89a470c37e5822232054",
+          "size": 1098,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "markupsafe",
+      "metadata_name": "MarkupSafe",
+      "installed_version": "3.0.4",
+      "locked_versions": [
+        "3.0.4"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "BSD-3-Clause",
+      "metadata_license_files": [
+        "LICENSE.txt"
+      ],
+      "files": [
+        {
+          "source_path": "markupsafe-3.0.4.dist-info/licenses/LICENSE.txt",
+          "path": "python-runtime-transitive/markupsafe@3.0.4/markupsafe-3.0.4.dist-info/licenses/LICENSE.txt",
+          "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+          "size": 1475,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "numpy",
+      "metadata_name": "numpy",
+      "installed_version": "2.5.4",
+      "locked_versions": [
+        "2.5.4"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "metadata_license_files": [
+        "LICENSE.txt",
+        "numpy/_core/include/numpy/libdivide/LICENSE.txt",
+        "numpy/_core/src/common/pythoncapi-compat/COPYING",
+        "numpy/_core/src/highway/LICENSE",
+        "numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+        "numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+        "numpy/_core/src/umath/svml/LICENSE",
+        "numpy/fft/pocketfft/LICENSE.md",
+        "numpy/linalg/lapack_lite/LICENSE.txt",
+        "numpy/ma/LICENSE",
+        "numpy/random/LICENSE.md",
+        "numpy/random/src/distributions/LICENSE.md",
+        "numpy/random/src/mt19937/LICENSE.md",
+        "numpy/random/src/pcg64/LICENSE.md",
+        "numpy/random/src/philox/LICENSE.md",
+        "numpy/random/src/sfc64/LICENSE.md",
+        "numpy/random/src/splitmix64/LICENSE.md"
+      ],
+      "files": [
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/LICENSE.txt",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/LICENSE.txt",
+          "sha256": "649a589ab31076e79e9ce62ba24eae9959598124176640dbc95f87bd10f34fcf",
+          "size": 46826,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+          "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+          "size": 1018,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+          "sha256": "3f2c1ffa76383a55ae0aac01c9737cd70050dff63e1f026694fbe9d662573c98",
+          "size": 690,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+          "sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af",
+          "size": 20785,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+          "sha256": "f7b14309e5f54e5022b26448eefd419988ada2aec01d3c1162d84a0ea8f21f2c",
+          "size": 1414,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+          "sha256": "211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910",
+          "size": 1514,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+          "sha256": "c17011467b4fe6e20fbfbeda4df09e58c2bca5480a063e55735a4000a379aad9",
+          "size": 1543,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+          "sha256": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056",
+          "size": 1498,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+          "sha256": "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55",
+          "size": 2266,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/ma/LICENSE",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/ma/LICENSE",
+          "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+          "size": 1593,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/random/LICENSE.md",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/random/LICENSE.md",
+          "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+          "size": 3511,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+          "sha256": "469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face",
+          "size": 2745,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+          "sha256": "0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156",
+          "size": 2926,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+          "sha256": "e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918",
+          "size": 1154,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+          "sha256": "6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800",
+          "size": 1509,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+          "sha256": "9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f",
+          "size": 1226,
+          "reused": false
+        },
+        {
+          "source_path": "numpy-2.5.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy-2.5.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+          "sha256": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9",
+          "size": 332,
+          "reused": false
+        },
+        {
+          "source_path": "numpy/_core/include/numpy/random/LICENSE.txt",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy/_core/include/numpy/random/LICENSE.txt",
+          "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+          "size": 1018,
+          "reused": false
+        },
+        {
+          "source_path": "numpy/ma/LICENSE",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy/ma/LICENSE",
+          "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+          "size": 1593,
+          "reused": false
+        },
+        {
+          "source_path": "numpy/random/LICENSE.md",
+          "path": "python-runtime-transitive/numpy@2.5.4/numpy/random/LICENSE.md",
+          "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+          "size": 3511,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "opencv-python-headless",
+      "metadata_name": "opencv-python-headless",
+      "installed_version": "4.14.0.94",
+      "locked_versions": [
+        "4.14.0.94"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "Apache 2.0",
+      "metadata_license_files": [
+        "LICENSE-3RD-PARTY.txt",
+        "LICENSE.txt"
+      ],
+      "files": [
+        {
+          "source_path": "cv2/LICENSE-3RD-PARTY.txt",
+          "path": "python/opencv-python-headless@4.14.0.94/cv2/LICENSE-3RD-PARTY.txt",
+          "sha256": "36bae33968d5e67f66906bc595949cb78d65978604e7392f552a79006c93cf2c",
+          "size": 179306,
+          "reused": true
+        },
+        {
+          "source_path": "cv2/LICENSE.txt",
+          "path": "python/opencv-python-headless@4.14.0.94/cv2/LICENSE.txt",
+          "sha256": "09d719058e782ac7bc71ba21c944e1136cde2bb957c0e888121f0218d6b5f02c",
+          "size": 1070,
+          "reused": true
+        },
+        {
+          "source_path": "opencv_python_headless-4.14.0.94.dist-info/LICENSE-3RD-PARTY.txt",
+          "path": "python/opencv-python-headless@4.14.0.94/opencv_python_headless-4.14.0.94.dist-info/LICENSE-3RD-PARTY.txt",
+          "sha256": "36bae33968d5e67f66906bc595949cb78d65978604e7392f552a79006c93cf2c",
+          "size": 179306,
+          "reused": true
+        },
+        {
+          "source_path": "opencv_python_headless-4.14.0.94.dist-info/LICENSE.txt",
+          "path": "python/opencv-python-headless@4.14.0.94/opencv_python_headless-4.14.0.94.dist-info/LICENSE.txt",
+          "sha256": "09d719058e782ac7bc71ba21c944e1136cde2bb957c0e888121f0218d6b5f02c",
+          "size": 1070,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "openpyxl",
+      "metadata_name": "openpyxl",
+      "installed_version": "3.1.5",
+      "locked_versions": [
+        "3.1.5"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENCE.rst"
+      ],
+      "files": [
+        {
+          "source_path": "openpyxl-3.1.5.dist-info/LICENCE.rst",
+          "path": "python/openpyxl@3.1.5/openpyxl-3.1.5.dist-info/LICENCE.rst",
+          "sha256": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e",
+          "size": 1131,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "opentelemetry-api",
+      "metadata_name": "opentelemetry-api",
+      "installed_version": "1.45.1",
+      "locked_versions": [
+        "1.45.1"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "Apache-2.0",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "opentelemetry_api-1.45.1.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/opentelemetry-api@1.45.1/opentelemetry_api-1.45.1.dist-info/licenses/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "size": 11357,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "ortools",
+      "metadata_name": "ortools",
+      "installed_version": "9.15.6755",
+      "locked_versions": [
+        "9.15.6755"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "Apache 2.0",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "ortools-9.15.6755.dist-info/licenses/LICENSE",
+          "path": "python/ortools@9.15.6755/ortools-9.15.6755.dist-info/licenses/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "size": 11358,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "pandas",
+      "metadata_name": "pandas",
+      "installed_version": "3.1.0",
+      "locked_versions": [
+        "3.1.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "BSD-3-Clause",
+      "metadata_license_files": [
+        "LICENSE",
+        "LICENSES/BOTTLENECK_LICENCE",
+        "LICENSES/DATEUTIL_LICENSE",
+        "LICENSES/HAVEN_LICENSE",
+        "LICENSES/HAVEN_MIT",
+        "LICENSES/KLIB_LICENSE",
+        "LICENSES/MUSL_LICENSE",
+        "LICENSES/NUMPY_LICENSE",
+        "LICENSES/PACKAGING_LICENSE",
+        "LICENSES/PSF_LICENSE",
+        "LICENSES/PYPERCLIP_LICENSE",
+        "LICENSES/PYUPGRADE_LICENSE",
+        "LICENSES/SAS7BDAT_LICENSE",
+        "LICENSES/STATSBASE_JL_LICENSE",
+        "LICENSES/ULTRAJSON_LICENSE",
+        "LICENSES/XSIMD_LICENSE",
+        "subprojects/fast_float-8.2.10/LICENSE-APACHE",
+        "subprojects/fast_float-8.2.10/LICENSE-BOOST",
+        "subprojects/fast_float-8.2.10/LICENSE-MIT"
+      ],
+      "files": [
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSE",
+          "sha256": "9850f6b5bdef7346503065807b878deb8058b976c5c329f4c4d23bf4796ce9ae",
+          "size": 1634,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/BOTTLENECK_LICENCE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/BOTTLENECK_LICENCE",
+          "sha256": "053a90e30580f5d9d79817add1567f88b4a3eeb11bcded9ecf74619d17768066",
+          "size": 1360,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/DATEUTIL_LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/DATEUTIL_LICENSE",
+          "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e",
+          "size": 2889,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/HAVEN_LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/HAVEN_LICENSE",
+          "sha256": "48216b40b3d1b19452923dd6fd74655bf5c0df9d76b51eb0efade7e0b88bfbcc",
+          "size": 1099,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/HAVEN_MIT",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/HAVEN_MIT",
+          "sha256": "87217d0a79195441ab615a3abb3ab6777502e57804ea83f973df975a67ebd720",
+          "size": 1264,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/KLIB_LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/KLIB_LICENSE",
+          "sha256": "7463172c3a23321c1838896eba437f70a6de80ac5a840b2960966c8c5444abf1",
+          "size": 1104,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/MUSL_LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/MUSL_LICENSE",
+          "sha256": "50a343c1ce9e27cd6c58023f13b91d2cd679861fe7fb6bbbbfbec3dcafc3583f",
+          "size": 6203,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/NUMPY_LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/NUMPY_LICENSE",
+          "sha256": "81d42da02a56b611c35abc83d2241564b46bec3a5b1960b395d55cebca68fb6f",
+          "size": 1542,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/PACKAGING_LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/PACKAGING_LICENSE",
+          "sha256": "1871330068a18f1f07c3f147a41c008e59f367f217041ca6eb20b0298639a128",
+          "size": 11519,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/PSF_LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/PSF_LICENSE",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+          "size": 13936,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/PYPERCLIP_LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/PYPERCLIP_LICENSE",
+          "sha256": "eafcd440e3570c6bc7b77dcec15dec398d13bc9b5e897336b221ff81ff19f345",
+          "size": 1486,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/PYUPGRADE_LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/PYUPGRADE_LICENSE",
+          "sha256": "70aedcd6928272bd176e4fdc3384af22ee759d006fb15105d994756e4f2d1b7a",
+          "size": 1058,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/SAS7BDAT_LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/SAS7BDAT_LICENSE",
+          "sha256": "458d5fd4175825440ad32d6bf6af45d1a19d4adb316b557d869c6560b6692e00",
+          "size": 1059,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/STATSBASE_JL_LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/STATSBASE_JL_LICENSE",
+          "sha256": "f371ccf0fb892a4cd9f2e550c4b8cf4362793d17028dc642ad55c1e01a41dfe1",
+          "size": 1249,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/ULTRAJSON_LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/ULTRAJSON_LICENSE",
+          "sha256": "2bfbb5bb8ec66d136ec62d836ddc0c0019d44ef4d9389f1f6cab1c1109d774a2",
+          "size": 5974,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/LICENSES/XSIMD_LICENSE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/LICENSES/XSIMD_LICENSE",
+          "sha256": "501352acba62cc54e8e3d293754d606f919c9b425b962193c211f9fa29cd9940",
+          "size": 1606,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/subprojects/fast_float-8.2.10/LICENSE-APACHE",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/subprojects/fast_float-8.2.10/LICENSE-APACHE",
+          "sha256": "097a889aa954d04e088b790b10a4014d6189561d0a6013935a73ce3d4ddaaf06",
+          "size": 10767,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/subprojects/fast_float-8.2.10/LICENSE-BOOST",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/subprojects/fast_float-8.2.10/LICENSE-BOOST",
+          "sha256": "8d8291caf1cee26d23acf3eb67c9f9a2d58f1c681b16a4fbe8cbfb9e3c0b5a9b",
+          "size": 1337,
+          "reused": false
+        },
+        {
+          "source_path": "pandas-3.1.0.dist-info/licenses/subprojects/fast_float-8.2.10/LICENSE-MIT",
+          "path": "python-runtime-transitive/pandas@3.1.0/pandas-3.1.0.dist-info/licenses/subprojects/fast_float-8.2.10/LICENSE-MIT",
+          "sha256": "e562f3f974ced7e69dd1db77b820b36bcf8f30377f1aa105723fba449c53c4e6",
+          "size": 1079,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "pillow",
+      "metadata_name": "pillow",
+      "installed_version": "13.0.0",
+      "locked_versions": [
+        "13.0.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "MIT-CMU",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "pillow-13.0.0.dist-info/licenses/LICENSE",
+          "path": "python/pillow@13.0.0/pillow-13.0.0.dist-info/licenses/LICENSE",
+          "sha256": "dda12a98c1979cf3d94df1cff45d27a4cb3f04a60c76f76902ac54cac03ec0ce",
+          "size": 70307,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "protobuf",
+      "metadata_name": "protobuf",
+      "installed_version": "6.33.6",
+      "locked_versions": [
+        "6.33.6"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "3-Clause BSD License",
+      "metadata_license_files": [],
+      "files": [
+        {
+          "source_path": "protobuf-6.33.6.dist-info/LICENSE",
+          "path": "python-runtime-transitive/protobuf@6.33.6/protobuf-6.33.6.dist-info/LICENSE",
+          "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d",
+          "size": 1732,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "pycparser",
+      "metadata_name": "pycparser",
+      "installed_version": "3.12",
+      "locked_versions": [
+        "3.12"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "BSD-3-Clause",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "pycparser-3.12.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/pycparser@3.12/pycparser-3.12.dist-info/licenses/LICENSE",
+          "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90",
+          "size": 1543,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "pydantic",
+      "metadata_name": "pydantic",
+      "installed_version": "2.14.1",
+      "locked_versions": [
+        "2.14.1"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "pydantic-2.14.1.dist-info/licenses/LICENSE",
+          "path": "python/pydantic@2.14.1/pydantic-2.14.1.dist-info/licenses/LICENSE",
+          "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+          "size": 1129,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "pydantic-core",
+      "metadata_name": "pydantic_core",
+      "installed_version": "2.50.1",
+      "locked_versions": [
+        "2.50.1"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "pydantic_core-2.50.1.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/pydantic-core@2.50.1/pydantic_core-2.50.1.dist-info/licenses/LICENSE",
+          "sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a",
+          "size": 1080,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "pydantic-settings",
+      "metadata_name": "pydantic-settings",
+      "installed_version": "2.16.1",
+      "locked_versions": [
+        "2.16.1"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "pydantic_settings-2.16.1.dist-info/licenses/LICENSE",
+          "path": "python/pydantic-settings@2.16.1/pydantic_settings-2.16.1.dist-info/licenses/LICENSE",
+          "sha256": "eb355a753e020346d33d83bf9769135b89fc610568ac531a01c295bcee7fd998",
+          "size": 1103,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "pyjwt",
+      "metadata_name": "PyJWT",
+      "installed_version": "2.15.1",
+      "locked_versions": [
+        "2.15.1"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE",
+        "AUTHORS.rst"
+      ],
+      "files": [
+        {
+          "source_path": "pyjwt-2.15.1.dist-info/licenses/AUTHORS.rst",
+          "path": "python-runtime-transitive/pyjwt@2.15.1/pyjwt-2.15.1.dist-info/licenses/AUTHORS.rst",
+          "sha256": "925ce43461029eedbf558ec0b7cf7fc4b045def5120ebb97937c70814071cf07",
+          "size": 322,
+          "reused": false
+        },
+        {
+          "source_path": "pyjwt-2.15.1.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/pyjwt@2.15.1/pyjwt-2.15.1.dist-info/licenses/LICENSE",
+          "sha256": "797a7a20231d4c433e9f1911db1731d06b5828b98f499819a034f7c0f56f5ce5",
+          "size": 1085,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "python-dateutil",
+      "metadata_name": "python-dateutil",
+      "installed_version": "3.0.0",
+      "locked_versions": [
+        "3.0.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "Dual License",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "python_dateutil-3.0.0.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/python-dateutil@3.0.0/python_dateutil-3.0.0.dist-info/licenses/LICENSE",
+          "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e",
+          "size": 2889,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "python-dotenv",
+      "metadata_name": "python-dotenv",
+      "installed_version": "1.2.4",
+      "locked_versions": [
+        "1.2.4"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "BSD-3-Clause",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "python_dotenv-1.2.4.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/python-dotenv@1.2.4/python_dotenv-1.2.4.dist-info/licenses/LICENSE",
+          "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+          "size": 1556,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "python-multipart",
+      "metadata_name": "python-multipart",
+      "installed_version": "0.0.32",
+      "locked_versions": [
+        "0.0.32"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "Apache-2.0",
+      "metadata_license_files": [
+        "LICENSE.txt"
+      ],
+      "files": [
+        {
+          "source_path": "python_multipart-0.0.32.dist-info/licenses/LICENSE.txt",
+          "path": "python/python-multipart@0.0.32/python_multipart-0.0.32.dist-info/licenses/LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "size": 11358,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "redis",
+      "metadata_name": "redis",
+      "installed_version": "5.3.1",
+      "locked_versions": [
+        "5.3.1"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [
+        "hiredis"
+      ],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "redis-5.3.1.dist-info/LICENSE",
+          "path": "python-runtime-transitive/redis@5.3.1/redis-5.3.1.dist-info/LICENSE",
+          "sha256": "a57b250a5bf03d7afe55b74063313f2adb7b00d546c0ab149a89398333fe3cc8",
+          "size": 1074,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "six",
+      "metadata_name": "six",
+      "installed_version": "1.17.0",
+      "locked_versions": [
+        "1.17.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "six-1.17.0.dist-info/LICENSE",
+          "path": "python-runtime-transitive/six@1.17.0/six-1.17.0.dist-info/LICENSE",
+          "sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0",
+          "size": 1066,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "sqlalchemy",
+      "metadata_name": "SQLAlchemy",
+      "installed_version": "2.0.55",
+      "locked_versions": [
+        "2.0.55"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [
+        "asyncio"
+      ],
+      "is_direct_runtime_root": true,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE",
+        "AUTHORS"
+      ],
+      "files": [
+        {
+          "source_path": "sqlalchemy-2.0.55.dist-info/licenses/AUTHORS",
+          "path": "python/sqlalchemy@2.0.55/sqlalchemy-2.0.55.dist-info/licenses/AUTHORS",
+          "sha256": "dc1db0b5d17455adc37b693ff8e409c9a80f603e441695825518c36f786c963e",
+          "size": 492,
+          "reused": true
+        },
+        {
+          "source_path": "sqlalchemy-2.0.55.dist-info/licenses/LICENSE",
+          "path": "python/sqlalchemy@2.0.55/sqlalchemy-2.0.55.dist-info/licenses/LICENSE",
+          "sha256": "e862bb5b904fb5513c3e14288d7a25a12eb0ecc7847a0a965d310e9a955e7cb9",
+          "size": 1100,
+          "reused": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "starlette",
+      "metadata_name": "starlette",
+      "installed_version": "1.9.0",
+      "locked_versions": [
+        "1.9.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "BSD-3-Clause",
+      "metadata_license_files": [
+        "LICENSE.md"
+      ],
+      "files": [
+        {
+          "source_path": "starlette-1.9.0.dist-info/licenses/LICENSE.md",
+          "path": "python-runtime-transitive/starlette@1.9.0/starlette-1.9.0.dist-info/licenses/LICENSE.md",
+          "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+          "size": 1518,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "typing-extensions",
+      "metadata_name": "typing_extensions",
+      "installed_version": "4.16.0",
+      "locked_versions": [
+        "4.16.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "PSF-2.0",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/typing-extensions@4.16.0/typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+          "size": 13936,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "typing-inspection",
+      "metadata_name": "typing-inspection",
+      "installed_version": "0.4.4",
+      "locked_versions": [
+        "0.4.4"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "MIT",
+      "metadata_license_files": [
+        "LICENSE"
+      ],
+      "files": [
+        {
+          "source_path": "typing_inspection-0.4.4.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/typing-inspection@0.4.4/typing_inspection-0.4.4.dist-info/licenses/LICENSE",
+          "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3",
+          "size": 1090,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "tzdata",
+      "metadata_name": "tzdata",
+      "installed_version": "2026.5",
+      "locked_versions": [
+        "2026.5"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": false,
+      "metadata_license": "Apache-2.0",
+      "metadata_license_files": [
+        "LICENSE",
+        "licenses/LICENSE_APACHE"
+      ],
+      "files": [
+        {
+          "source_path": "tzdata-2026.5.dist-info/licenses/LICENSE",
+          "path": "python-runtime-transitive/tzdata@2026.5/tzdata-2026.5.dist-info/licenses/LICENSE",
+          "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46",
+          "size": 625,
+          "reused": false
+        },
+        {
+          "source_path": "tzdata-2026.5.dist-info/licenses/licenses/LICENSE_APACHE",
+          "path": "python-runtime-transitive/tzdata@2026.5/tzdata-2026.5.dist-info/licenses/licenses/LICENSE_APACHE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "size": 11357,
+          "reused": false
+        }
+      ],
+      "issues": []
+    },
+    {
+      "name": "uvicorn",
+      "metadata_name": "uvicorn",
+      "installed_version": "0.54.0",
+      "locked_versions": [
+        "0.54.0"
+      ],
+      "lock_matches_install": true,
+      "requested_extras": [],
+      "is_direct_runtime_root": true,
+      "metadata_license": "BSD-3-Clause",
+      "metadata_license_files": [
+        "LICENSE.md"
+      ],
+      "files": [
+        {
+          "source_path": "uvicorn-0.54.0.dist-info/licenses/LICENSE.md",
+          "path": "python/uvicorn@0.54.0/uvicorn-0.54.0.dist-info/licenses/LICENSE.md",
+          "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+          "size": 1526,
+          "reused": true
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "edges": [
+    {
+      "parent": "alembic",
+      "requirement": "SQLAlchemy>=2.0",
+      "child": "sqlalchemy",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2.0.55",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "alembic",
+      "requirement": "Mako",
+      "child": "mako",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "1.4.3",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "alembic",
+      "requirement": "typing-extensions>=4.12",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "alembic",
+      "requirement": "tomli; python_version < \"3.11\"",
+      "child": "tomli",
+      "child_requested_extras": [],
+      "marker": "python_version < \"3.11\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "alembic",
+      "requirement": "tzdata; extra == \"tz\"",
+      "child": "tzdata",
+      "child_requested_extras": [],
+      "marker": "extra == \"tz\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2026.5",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "anyio",
+      "requirement": "exceptiongroup>=1.0.2; python_version < \"3.11\"",
+      "child": "exceptiongroup",
+      "child_requested_extras": [],
+      "marker": "python_version < \"3.11\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "anyio",
+      "requirement": "idna>=2.8",
+      "child": "idna",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "3.20",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "anyio",
+      "requirement": "typing_extensions>=4.16.0; python_version < \"3.15\"",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": "python_version < \"3.15\"",
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "anyio",
+      "requirement": "trio>=0.32.0; extra == \"trio\"",
+      "child": "trio",
+      "child_requested_extras": [],
+      "marker": "extra == \"trio\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "arq",
+      "requirement": "click>=8.0",
+      "child": "click",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "8.5.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "arq",
+      "requirement": "redis[hiredis]<6,>=4.2.0",
+      "child": "redis",
+      "child_requested_extras": [
+        "hiredis"
+      ],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "5.3.1",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "arq",
+      "requirement": "watchfiles>=0.16; extra == 'watch'",
+      "child": "watchfiles",
+      "child_requested_extras": [],
+      "marker": "extra == \"watch\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "asyncpg",
+      "requirement": "async_timeout>=4.0.3; python_version < \"3.11.0\"",
+      "child": "async-timeout",
+      "child_requested_extras": [],
+      "marker": "python_version < \"3.11.0\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "asyncpg",
+      "requirement": "gssapi; platform_system != \"Windows\" and extra == \"gssauth\"",
+      "child": "gssapi",
+      "child_requested_extras": [],
+      "marker": "platform_system != \"Windows\" and extra == \"gssauth\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "asyncpg",
+      "requirement": "sspilib; platform_system == \"Windows\" and extra == \"gssauth\"",
+      "child": "sspilib",
+      "child_requested_extras": [],
+      "marker": "platform_system == \"Windows\" and extra == \"gssauth\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cffi",
+      "requirement": "pycparser; implementation_name != \"PyPy\"",
+      "child": "pycparser",
+      "child_requested_extras": [],
+      "marker": "implementation_name != \"PyPy\"",
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "3.12",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "cffi>=1.14 ; python_full_version == '3.8.*' and platform_python_implementation != 'PyPy'",
+      "child": "cffi",
+      "child_requested_extras": [],
+      "marker": "python_full_version == \"3.8.*\" and platform_python_implementation != \"PyPy\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2.1.1",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "cffi>=2.0.0 ; python_full_version >= '3.9' and platform_python_implementation != 'PyPy'",
+      "child": "cffi",
+      "child_requested_extras": [],
+      "marker": "python_full_version >= \"3.9\" and platform_python_implementation != \"PyPy\"",
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2.1.1",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "typing-extensions>=4.13.2 ; python_full_version < '3.11'",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": "python_full_version < \"3.11\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "bcrypt>=3.1.5 ; extra == 'ssh'",
+      "child": "bcrypt",
+      "child_requested_extras": [],
+      "marker": "extra == \"ssh\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "nox[uv]>=2024.4.15 ; extra == 'nox'",
+      "child": "nox",
+      "child_requested_extras": [
+        "uv"
+      ],
+      "marker": "extra == \"nox\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "cryptography-vectors==46.0.7 ; extra == 'test'",
+      "child": "cryptography-vectors",
+      "child_requested_extras": [],
+      "marker": "extra == \"test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "pytest>=7.4.0 ; extra == 'test'",
+      "child": "pytest",
+      "child_requested_extras": [],
+      "marker": "extra == \"test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "pytest-benchmark>=4.0 ; extra == 'test'",
+      "child": "pytest-benchmark",
+      "child_requested_extras": [],
+      "marker": "extra == \"test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "pytest-cov>=2.10.1 ; extra == 'test'",
+      "child": "pytest-cov",
+      "child_requested_extras": [],
+      "marker": "extra == \"test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "pytest-xdist>=3.5.0 ; extra == 'test'",
+      "child": "pytest-xdist",
+      "child_requested_extras": [],
+      "marker": "extra == \"test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "pretend>=0.7 ; extra == 'test'",
+      "child": "pretend",
+      "child_requested_extras": [],
+      "marker": "extra == \"test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "certifi>=2024 ; extra == 'test'",
+      "child": "certifi",
+      "child_requested_extras": [],
+      "marker": "extra == \"test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "pytest-randomly ; extra == 'test-randomorder'",
+      "child": "pytest-randomly",
+      "child_requested_extras": [],
+      "marker": "extra == \"test-randomorder\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "sphinx>=5.3.0 ; extra == 'docs'",
+      "child": "sphinx",
+      "child_requested_extras": [],
+      "marker": "extra == \"docs\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "sphinx-rtd-theme>=3.0.0 ; extra == 'docs'",
+      "child": "sphinx-rtd-theme",
+      "child_requested_extras": [],
+      "marker": "extra == \"docs\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "sphinx-inline-tabs ; extra == 'docs'",
+      "child": "sphinx-inline-tabs",
+      "child_requested_extras": [],
+      "marker": "extra == \"docs\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "pyenchant>=3 ; extra == 'docstest'",
+      "child": "pyenchant",
+      "child_requested_extras": [],
+      "marker": "extra == \"docstest\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "readme-renderer>=30.0 ; extra == 'docstest'",
+      "child": "readme-renderer",
+      "child_requested_extras": [],
+      "marker": "extra == \"docstest\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "sphinxcontrib-spelling>=7.3.1 ; extra == 'docstest'",
+      "child": "sphinxcontrib-spelling",
+      "child_requested_extras": [],
+      "marker": "extra == \"docstest\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "build>=1.0.0 ; extra == 'sdist'",
+      "child": "build",
+      "child_requested_extras": [],
+      "marker": "extra == \"sdist\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "ruff>=0.11.11 ; extra == 'pep8test'",
+      "child": "ruff",
+      "child_requested_extras": [],
+      "marker": "extra == \"pep8test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "mypy>=1.14 ; extra == 'pep8test'",
+      "child": "mypy",
+      "child_requested_extras": [],
+      "marker": "extra == \"pep8test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "check-sdist ; extra == 'pep8test'",
+      "child": "check-sdist",
+      "child_requested_extras": [],
+      "marker": "extra == \"pep8test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "cryptography",
+      "requirement": "click>=8.0.1 ; extra == 'pep8test'",
+      "child": "click",
+      "child_requested_extras": [],
+      "marker": "extra == \"pep8test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "8.5.0",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "starlette>=0.46.0",
+      "child": "starlette",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "1.9.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "pydantic>=2.9.0",
+      "child": "pydantic",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2.14.1",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "typing-extensions>=4.8.0",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "typing-inspection>=0.4.2",
+      "child": "typing-inspection",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "0.4.4",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "annotated-doc>=0.0.2",
+      "child": "annotated-doc",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "0.0.5",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "opentelemetry-api>=1.44.0",
+      "child": "opentelemetry-api",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "1.45.1",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "opentelemetry-sdk>=1.44.0; extra == \"opentelemetry\"",
+      "child": "opentelemetry-sdk",
+      "child_requested_extras": [],
+      "marker": "extra == \"opentelemetry\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "opentelemetry-exporter-otlp-proto-http>=1.44.0; extra == \"opentelemetry\"",
+      "child": "opentelemetry-exporter-otlp-proto-http",
+      "child_requested_extras": [],
+      "marker": "extra == \"opentelemetry\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "opentelemetry-sdk>=1.44.0; extra == \"standard\"",
+      "child": "opentelemetry-sdk",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "opentelemetry-exporter-otlp-proto-http>=1.44.0; extra == \"standard\"",
+      "child": "opentelemetry-exporter-otlp-proto-http",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "fastapi-cli[standard]>=0.0.32; extra == \"standard\"",
+      "child": "fastapi-cli",
+      "child_requested_extras": [
+        "standard"
+      ],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "fastar>=0.9.0; extra == \"standard\"",
+      "child": "fastar",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "httpx<1.0.0,>=0.23.0; extra == \"standard\"",
+      "child": "httpx",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "httpx2>=2.0.0; extra == \"standard\"",
+      "child": "httpx2",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "jinja2>=3.1.5; extra == \"standard\"",
+      "child": "jinja2",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "python-multipart>=0.0.18; extra == \"standard\"",
+      "child": "python-multipart",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "0.0.32",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "email-validator>=2.0.0; extra == \"standard\"",
+      "child": "email-validator",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "uvicorn[standard]>=0.12.0; extra == \"standard\"",
+      "child": "uvicorn",
+      "child_requested_extras": [
+        "standard"
+      ],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "0.54.0",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "pydantic-settings>=2.0.0; extra == \"standard\"",
+      "child": "pydantic-settings",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2.16.1",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "pydantic-extra-types>=2.0.0; extra == \"standard\"",
+      "child": "pydantic-extra-types",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "opentelemetry-sdk>=1.44.0; extra == \"standard-no-fastapi-cloud-cli\"",
+      "child": "opentelemetry-sdk",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard-no-fastapi-cloud-cli\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "opentelemetry-exporter-otlp-proto-http>=1.44.0; extra == \"standard-no-fastapi-cloud-cli\"",
+      "child": "opentelemetry-exporter-otlp-proto-http",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard-no-fastapi-cloud-cli\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "fastapi-cli[standard-no-fastapi-cloud-cli]>=0.0.32; extra == \"standard-no-fastapi-cloud-cli\"",
+      "child": "fastapi-cli",
+      "child_requested_extras": [
+        "standard-no-fastapi-cloud-cli"
+      ],
+      "marker": "extra == \"standard-no-fastapi-cloud-cli\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "httpx<1.0.0,>=0.23.0; extra == \"standard-no-fastapi-cloud-cli\"",
+      "child": "httpx",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard-no-fastapi-cloud-cli\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "httpx2>=2.0.0; extra == \"standard-no-fastapi-cloud-cli\"",
+      "child": "httpx2",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard-no-fastapi-cloud-cli\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "jinja2>=3.1.5; extra == \"standard-no-fastapi-cloud-cli\"",
+      "child": "jinja2",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard-no-fastapi-cloud-cli\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "python-multipart>=0.0.18; extra == \"standard-no-fastapi-cloud-cli\"",
+      "child": "python-multipart",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard-no-fastapi-cloud-cli\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "0.0.32",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "email-validator>=2.0.0; extra == \"standard-no-fastapi-cloud-cli\"",
+      "child": "email-validator",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard-no-fastapi-cloud-cli\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "uvicorn[standard]>=0.12.0; extra == \"standard-no-fastapi-cloud-cli\"",
+      "child": "uvicorn",
+      "child_requested_extras": [
+        "standard"
+      ],
+      "marker": "extra == \"standard-no-fastapi-cloud-cli\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "0.54.0",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "pydantic-settings>=2.0.0; extra == \"standard-no-fastapi-cloud-cli\"",
+      "child": "pydantic-settings",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard-no-fastapi-cloud-cli\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2.16.1",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "pydantic-extra-types>=2.0.0; extra == \"standard-no-fastapi-cloud-cli\"",
+      "child": "pydantic-extra-types",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard-no-fastapi-cloud-cli\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "opentelemetry-sdk>=1.44.0; extra == \"all\"",
+      "child": "opentelemetry-sdk",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "opentelemetry-exporter-otlp-proto-http>=1.44.0; extra == \"all\"",
+      "child": "opentelemetry-exporter-otlp-proto-http",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "fastapi-cli[standard]>=0.0.32; extra == \"all\"",
+      "child": "fastapi-cli",
+      "child_requested_extras": [
+        "standard"
+      ],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "httpx<1.0.0,>=0.23.0; extra == \"all\"",
+      "child": "httpx",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "httpx2>=2.0.0; extra == \"all\"",
+      "child": "httpx2",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "jinja2>=3.1.5; extra == \"all\"",
+      "child": "jinja2",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "python-multipart>=0.0.18; extra == \"all\"",
+      "child": "python-multipart",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "0.0.32",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "itsdangerous>=1.1.0; extra == \"all\"",
+      "child": "itsdangerous",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "pyyaml>=5.3.1; extra == \"all\"",
+      "child": "pyyaml",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "email-validator>=2.0.0; extra == \"all\"",
+      "child": "email-validator",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "uvicorn[standard]>=0.12.0; extra == \"all\"",
+      "child": "uvicorn",
+      "child_requested_extras": [
+        "standard"
+      ],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "0.54.0",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "pydantic-settings>=2.0.0; extra == \"all\"",
+      "child": "pydantic-settings",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2.16.1",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "fastapi",
+      "requirement": "pydantic-extra-types>=2.0.0; extra == \"all\"",
+      "child": "pydantic-extra-types",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "greenlet",
+      "requirement": "Sphinx; extra == \"docs\"",
+      "child": "sphinx",
+      "child_requested_extras": [],
+      "marker": "extra == \"docs\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "greenlet",
+      "requirement": "furo; extra == \"docs\"",
+      "child": "furo",
+      "child_requested_extras": [],
+      "marker": "extra == \"docs\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "greenlet",
+      "requirement": "objgraph; extra == \"test\"",
+      "child": "objgraph",
+      "child_requested_extras": [],
+      "marker": "extra == \"test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "greenlet",
+      "requirement": "psutil; extra == \"test\"",
+      "child": "psutil",
+      "child_requested_extras": [],
+      "marker": "extra == \"test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "greenlet",
+      "requirement": "setuptools; extra == \"test\"",
+      "child": "setuptools",
+      "child_requested_extras": [],
+      "marker": "extra == \"test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "idna",
+      "requirement": "ruff >= 0.16.0 ; extra == \"all\"",
+      "child": "ruff",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "idna",
+      "requirement": "mypy >= 1.11.2 ; extra == \"all\"",
+      "child": "mypy",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "idna",
+      "requirement": "ty >= 0.0.37 ; extra == \"all\"",
+      "child": "ty",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "idna",
+      "requirement": "pytest >= 8.3.2 ; extra == \"all\"",
+      "child": "pytest",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "idna",
+      "requirement": "hypothesis >= 6.141.1 ; extra == \"all\"",
+      "child": "hypothesis",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "idna",
+      "requirement": "coverage >= 7.10.0 ; extra == \"all\"",
+      "child": "coverage",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "mako",
+      "requirement": "MarkupSafe>=2.0",
+      "child": "markupsafe",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "3.0.4",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "mako",
+      "requirement": "pytest; extra == \"testing\"",
+      "child": "pytest",
+      "child_requested_extras": [],
+      "marker": "extra == \"testing\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "mako",
+      "requirement": "Babel; extra == \"babel\"",
+      "child": "babel",
+      "child_requested_extras": [],
+      "marker": "extra == \"babel\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "mako",
+      "requirement": "lingua>=4.16; extra == \"lingua\"",
+      "child": "lingua",
+      "child_requested_extras": [],
+      "marker": "extra == \"lingua\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "opencv-python-headless",
+      "requirement": "numpy<2.0; python_version < \"3.9\"",
+      "child": "numpy",
+      "child_requested_extras": [],
+      "marker": "python_version < \"3.9\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2.5.4",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "opencv-python-headless",
+      "requirement": "numpy>=2; python_version >= \"3.9\"",
+      "child": "numpy",
+      "child_requested_extras": [],
+      "marker": "python_version >= \"3.9\"",
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2.5.4",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "openpyxl",
+      "requirement": "et-xmlfile",
+      "child": "et-xmlfile",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2.0.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "opentelemetry-api",
+      "requirement": "typing-extensions>=4.5.0",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "ortools",
+      "requirement": "absl-py>=2.0.0",
+      "child": "absl-py",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2.5.1",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "ortools",
+      "requirement": "numpy>=2.0.2",
+      "child": "numpy",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2.5.4",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "ortools",
+      "requirement": "pandas>=2.0.0",
+      "child": "pandas",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "3.1.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "ortools",
+      "requirement": "protobuf<6.34,>=6.33.1",
+      "child": "protobuf",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "6.33.6",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "ortools",
+      "requirement": "typing-extensions>=4.12",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "ortools",
+      "requirement": "immutabledict>=3.0.0",
+      "child": "immutabledict",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "4.3.1",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "pandas",
+      "requirement": "numpy>=2.0.2; python_version < \"3.14\"",
+      "child": "numpy",
+      "child_requested_extras": [],
+      "marker": "python_version < \"3.14\"",
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2.5.4",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "pandas",
+      "requirement": "numpy>=2.3.3; python_version >= \"3.14\"",
+      "child": "numpy",
+      "child_requested_extras": [],
+      "marker": "python_version >= \"3.14\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2.5.4",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "python-dateutil>=2.9.0",
+      "child": "python-dateutil",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "3.0.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "pandas",
+      "requirement": "tzdata; sys_platform == \"win32\"",
+      "child": "tzdata",
+      "child_requested_extras": [],
+      "marker": "sys_platform == \"win32\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2026.5",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "tzdata; sys_platform == \"emscripten\"",
+      "child": "tzdata",
+      "child_requested_extras": [],
+      "marker": "sys_platform == \"emscripten\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2026.5",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pytest>=8.3.4; extra == \"test\"",
+      "child": "pytest",
+      "child_requested_extras": [],
+      "marker": "extra == \"test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pytest-xdist>=3.6.1; extra == \"test\"",
+      "child": "pytest-xdist",
+      "child_requested_extras": [],
+      "marker": "extra == \"test\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pyarrow>=16.0.0; extra == \"pyarrow\"",
+      "child": "pyarrow",
+      "child_requested_extras": [],
+      "marker": "extra == \"pyarrow\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "bottleneck>=1.5.0; extra == \"performance\"",
+      "child": "bottleneck",
+      "child_requested_extras": [],
+      "marker": "extra == \"performance\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "numba>=0.61.2; extra == \"performance\"",
+      "child": "numba",
+      "child_requested_extras": [],
+      "marker": "extra == \"performance\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "numexpr!=2.14.1,>=2.11.0; extra == \"performance\"",
+      "child": "numexpr",
+      "child_requested_extras": [],
+      "marker": "extra == \"performance\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "scipy>=1.16.1; extra == \"computation\"",
+      "child": "scipy",
+      "child_requested_extras": [],
+      "marker": "extra == \"computation\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "xarray>=2025.7.1; extra == \"computation\"",
+      "child": "xarray",
+      "child_requested_extras": [],
+      "marker": "extra == \"computation\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "fsspec>=2025.7.0; extra == \"fss\"",
+      "child": "fsspec",
+      "child_requested_extras": [],
+      "marker": "extra == \"fss\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "s3fs>=2025.7.0; extra == \"aws\"",
+      "child": "s3fs",
+      "child_requested_extras": [],
+      "marker": "extra == \"aws\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "gcsfs>=2025.7.0; extra == \"gcp\"",
+      "child": "gcsfs",
+      "child_requested_extras": [],
+      "marker": "extra == \"gcp\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "odfpy>=1.4.1; extra == \"excel\"",
+      "child": "odfpy",
+      "child_requested_extras": [],
+      "marker": "extra == \"excel\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "openpyxl>=3.1.5; extra == \"excel\"",
+      "child": "openpyxl",
+      "child_requested_extras": [],
+      "marker": "extra == \"excel\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "3.1.5",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "python-calamine>=0.4.0; extra == \"excel\"",
+      "child": "python-calamine",
+      "child_requested_extras": [],
+      "marker": "extra == \"excel\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pyxlsb>=1.0.10; extra == \"excel\"",
+      "child": "pyxlsb",
+      "child_requested_extras": [],
+      "marker": "extra == \"excel\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "xlrd>=2.0.2; extra == \"excel\"",
+      "child": "xlrd",
+      "child_requested_extras": [],
+      "marker": "extra == \"excel\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "xlsxwriter>=3.2.5; extra == \"excel\"",
+      "child": "xlsxwriter",
+      "child_requested_extras": [],
+      "marker": "extra == \"excel\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pyarrow>=13.0.0; extra == \"parquet\"",
+      "child": "pyarrow",
+      "child_requested_extras": [],
+      "marker": "extra == \"parquet\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pyarrow>=13.0.0; extra == \"feather\"",
+      "child": "pyarrow",
+      "child_requested_extras": [],
+      "marker": "extra == \"feather\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pyiceberg>=0.9.1; extra == \"iceberg\"",
+      "child": "pyiceberg",
+      "child_requested_extras": [],
+      "marker": "extra == \"iceberg\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "tables>=3.10.2; extra == \"hdf5\"",
+      "child": "tables",
+      "child_requested_extras": [],
+      "marker": "extra == \"hdf5\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pyreadstat>=1.3.0; extra == \"spss\"",
+      "child": "pyreadstat",
+      "child_requested_extras": [],
+      "marker": "extra == \"spss\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "SQLAlchemy>=2.0.42; extra == \"postgresql\"",
+      "child": "sqlalchemy",
+      "child_requested_extras": [],
+      "marker": "extra == \"postgresql\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2.0.55",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "psycopg2>=2.9.10; extra == \"postgresql\"",
+      "child": "psycopg2",
+      "child_requested_extras": [],
+      "marker": "extra == \"postgresql\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "adbc-driver-postgresql>=1.7.0; extra == \"postgresql\"",
+      "child": "adbc-driver-postgresql",
+      "child_requested_extras": [],
+      "marker": "extra == \"postgresql\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "SQLAlchemy>=2.0.42; extra == \"mysql\"",
+      "child": "sqlalchemy",
+      "child_requested_extras": [],
+      "marker": "extra == \"mysql\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2.0.55",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pymysql>=1.1.1; extra == \"mysql\"",
+      "child": "pymysql",
+      "child_requested_extras": [],
+      "marker": "extra == \"mysql\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "SQLAlchemy>=2.0.42; extra == \"sql-other\"",
+      "child": "sqlalchemy",
+      "child_requested_extras": [],
+      "marker": "extra == \"sql-other\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2.0.55",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "adbc-driver-postgresql>=1.7.0; extra == \"sql-other\"",
+      "child": "adbc-driver-postgresql",
+      "child_requested_extras": [],
+      "marker": "extra == \"sql-other\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "adbc-driver-sqlite>=1.7.0; extra == \"sql-other\"",
+      "child": "adbc-driver-sqlite",
+      "child_requested_extras": [],
+      "marker": "extra == \"sql-other\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "beautifulsoup4>=4.13.4; extra == \"html\"",
+      "child": "beautifulsoup4",
+      "child_requested_extras": [],
+      "marker": "extra == \"html\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "html5lib>=1.1; extra == \"html\"",
+      "child": "html5lib",
+      "child_requested_extras": [],
+      "marker": "extra == \"html\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "lxml>=6.0.0; extra == \"html\"",
+      "child": "lxml",
+      "child_requested_extras": [],
+      "marker": "extra == \"html\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "lxml>=6.0.0; extra == \"xml\"",
+      "child": "lxml",
+      "child_requested_extras": [],
+      "marker": "extra == \"xml\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "matplotlib>=3.10.5; extra == \"plot\"",
+      "child": "matplotlib",
+      "child_requested_extras": [],
+      "marker": "extra == \"plot\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "jinja2>=3.1.6; extra == \"output-formatting\"",
+      "child": "jinja2",
+      "child_requested_extras": [],
+      "marker": "extra == \"output-formatting\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "tabulate>=0.9.0; extra == \"output-formatting\"",
+      "child": "tabulate",
+      "child_requested_extras": [],
+      "marker": "extra == \"output-formatting\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "PyQt5>=5.15.11; extra == \"clipboard\"",
+      "child": "pyqt5",
+      "child_requested_extras": [],
+      "marker": "extra == \"clipboard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "qtpy>=2.4.3; extra == \"clipboard\"",
+      "child": "qtpy",
+      "child_requested_extras": [],
+      "marker": "extra == \"clipboard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "zstandard>=0.23.0; extra == \"compression\"",
+      "child": "zstandard",
+      "child_requested_extras": [],
+      "marker": "extra == \"compression\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pytz>=2020.1; extra == \"timezone\"",
+      "child": "pytz",
+      "child_requested_extras": [],
+      "marker": "extra == \"timezone\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "adbc-driver-postgresql>=1.7.0; extra == \"all\"",
+      "child": "adbc-driver-postgresql",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "adbc-driver-sqlite>=1.7.0; extra == \"all\"",
+      "child": "adbc-driver-sqlite",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "beautifulsoup4>=4.13.4; extra == \"all\"",
+      "child": "beautifulsoup4",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "bottleneck>=1.5.0; extra == \"all\"",
+      "child": "bottleneck",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "fastparquet>=2024.11.0; extra == \"all\"",
+      "child": "fastparquet",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "fsspec>=2025.7.0; extra == \"all\"",
+      "child": "fsspec",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "gcsfs>=2025.7.0; extra == \"all\"",
+      "child": "gcsfs",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "html5lib>=1.1; extra == \"all\"",
+      "child": "html5lib",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "jinja2>=3.1.6; extra == \"all\"",
+      "child": "jinja2",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "lxml>=6.0.0; extra == \"all\"",
+      "child": "lxml",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "matplotlib>=3.10.5; extra == \"all\"",
+      "child": "matplotlib",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "numba>=0.61.2; extra == \"all\"",
+      "child": "numba",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "numexpr!=2.14.1,>=2.11.0; extra == \"all\"",
+      "child": "numexpr",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "odfpy>=1.4.1; extra == \"all\"",
+      "child": "odfpy",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "openpyxl>=3.1.5; extra == \"all\"",
+      "child": "openpyxl",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "3.1.5",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "psycopg2>=2.9.10; extra == \"all\"",
+      "child": "psycopg2",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pyarrow>=16.0.0; extra == \"all\"",
+      "child": "pyarrow",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pyiceberg>=0.9.1; extra == \"all\"",
+      "child": "pyiceberg",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pymysql>=1.1.1; extra == \"all\"",
+      "child": "pymysql",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "PyQt5>=5.15.11; extra == \"all\"",
+      "child": "pyqt5",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pyreadstat>=1.3.0; extra == \"all\"",
+      "child": "pyreadstat",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pytest>=8.3.4; extra == \"all\"",
+      "child": "pytest",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pytest-xdist>=3.6.1; extra == \"all\"",
+      "child": "pytest-xdist",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "python-calamine>=0.4.0; extra == \"all\"",
+      "child": "python-calamine",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pytz>=2020.1; extra == \"all\"",
+      "child": "pytz",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "pyxlsb>=1.0.10; extra == \"all\"",
+      "child": "pyxlsb",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "qtpy>=2.4.3; extra == \"all\"",
+      "child": "qtpy",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "scipy>=1.16.1; extra == \"all\"",
+      "child": "scipy",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "s3fs>=2025.7.0; extra == \"all\"",
+      "child": "s3fs",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "SQLAlchemy>=2.0.42; extra == \"all\"",
+      "child": "sqlalchemy",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2.0.55",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "tables>=3.10.2; extra == \"all\"",
+      "child": "tables",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "tabulate>=0.9.0; extra == \"all\"",
+      "child": "tabulate",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "xarray>=2025.7.1; extra == \"all\"",
+      "child": "xarray",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "xlrd>=2.0.2; extra == \"all\"",
+      "child": "xlrd",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "xlsxwriter>=3.2.5; extra == \"all\"",
+      "child": "xlsxwriter",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pandas",
+      "requirement": "zstandard>=0.23.0; extra == \"all\"",
+      "child": "zstandard",
+      "child_requested_extras": [],
+      "marker": "extra == \"all\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "furo; extra == \"docs\"",
+      "child": "furo",
+      "child_requested_extras": [],
+      "marker": "extra == \"docs\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "olefile; extra == \"docs\"",
+      "child": "olefile",
+      "child_requested_extras": [],
+      "marker": "extra == \"docs\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "sphinx>=8.2; extra == \"docs\"",
+      "child": "sphinx",
+      "child_requested_extras": [],
+      "marker": "extra == \"docs\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "sphinx-autobuild; extra == \"docs\"",
+      "child": "sphinx-autobuild",
+      "child_requested_extras": [],
+      "marker": "extra == \"docs\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "sphinx-copybutton; extra == \"docs\"",
+      "child": "sphinx-copybutton",
+      "child_requested_extras": [],
+      "marker": "extra == \"docs\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "sphinx-inline-tabs; extra == \"docs\"",
+      "child": "sphinx-inline-tabs",
+      "child_requested_extras": [],
+      "marker": "extra == \"docs\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "sphinxext-opengraph; extra == \"docs\"",
+      "child": "sphinxext-opengraph",
+      "child_requested_extras": [],
+      "marker": "extra == \"docs\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "olefile; extra == \"fpx\"",
+      "child": "olefile",
+      "child_requested_extras": [],
+      "marker": "extra == \"fpx\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "olefile; extra == \"mic\"",
+      "child": "olefile",
+      "child_requested_extras": [],
+      "marker": "extra == \"mic\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "arro3-compute; extra == \"test-arrow\"",
+      "child": "arro3-compute",
+      "child_requested_extras": [],
+      "marker": "extra == \"test-arrow\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "arro3-core; extra == \"test-arrow\"",
+      "child": "arro3-core",
+      "child_requested_extras": [],
+      "marker": "extra == \"test-arrow\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "nanoarrow; extra == \"test-arrow\"",
+      "child": "nanoarrow",
+      "child_requested_extras": [],
+      "marker": "extra == \"test-arrow\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "pyarrow; extra == \"test-arrow\"",
+      "child": "pyarrow",
+      "child_requested_extras": [],
+      "marker": "extra == \"test-arrow\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "coverage>=7.4.2; extra == \"tests\"",
+      "child": "coverage",
+      "child_requested_extras": [],
+      "marker": "extra == \"tests\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "defusedxml; extra == \"tests\"",
+      "child": "defusedxml",
+      "child_requested_extras": [],
+      "marker": "extra == \"tests\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "0.7.1",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "markdown2; extra == \"tests\"",
+      "child": "markdown2",
+      "child_requested_extras": [],
+      "marker": "extra == \"tests\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "olefile; extra == \"tests\"",
+      "child": "olefile",
+      "child_requested_extras": [],
+      "marker": "extra == \"tests\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "packaging; extra == \"tests\"",
+      "child": "packaging",
+      "child_requested_extras": [],
+      "marker": "extra == \"tests\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "psutil; (sys_platform == \"linux\" or sys_platform == \"darwin\") and extra == \"tests\"",
+      "child": "psutil",
+      "child_requested_extras": [],
+      "marker": "(sys_platform == \"linux\" or sys_platform == \"darwin\") and extra == \"tests\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "pytest; extra == \"tests\"",
+      "child": "pytest",
+      "child_requested_extras": [],
+      "marker": "extra == \"tests\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "pytest-cov; extra == \"tests\"",
+      "child": "pytest-cov",
+      "child_requested_extras": [],
+      "marker": "extra == \"tests\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "pytest-timeout; extra == \"tests\"",
+      "child": "pytest-timeout",
+      "child_requested_extras": [],
+      "marker": "extra == \"tests\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "pytest-xdist; extra == \"tests\"",
+      "child": "pytest-xdist",
+      "child_requested_extras": [],
+      "marker": "extra == \"tests\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "setuptools; extra == \"tests\"",
+      "child": "setuptools",
+      "child_requested_extras": [],
+      "marker": "extra == \"tests\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "trove-classifiers>=2024.10.12; extra == \"tests\"",
+      "child": "trove-classifiers",
+      "child_requested_extras": [],
+      "marker": "extra == \"tests\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pillow",
+      "requirement": "defusedxml; extra == \"xmp\"",
+      "child": "defusedxml",
+      "child_requested_extras": [],
+      "marker": "extra == \"xmp\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "0.7.1",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pydantic",
+      "requirement": "annotated-types>=0.6.0",
+      "child": "annotated-types",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "0.8.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "pydantic",
+      "requirement": "pydantic-core==2.50.1",
+      "child": "pydantic-core",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2.50.1",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "pydantic",
+      "requirement": "typing-extensions>=4.16.0",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "pydantic",
+      "requirement": "typing-inspection>=0.4.4",
+      "child": "typing-inspection",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "0.4.4",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "pydantic",
+      "requirement": "email-validator>=2.0.0; extra == 'email'",
+      "child": "email-validator",
+      "child_requested_extras": [],
+      "marker": "extra == \"email\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pydantic",
+      "requirement": "tzdata; (platform_system == 'Windows') and extra == 'timezone'",
+      "child": "tzdata",
+      "child_requested_extras": [],
+      "marker": "platform_system == \"Windows\" and extra == \"timezone\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "2026.5",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pydantic-core",
+      "requirement": "typing-extensions>=4.16.0",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "pydantic-settings",
+      "requirement": "pydantic>=2.7.0",
+      "child": "pydantic",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2.14.1",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "pydantic-settings",
+      "requirement": "python-dotenv>=1.2.2",
+      "child": "python-dotenv",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "1.2.4",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "pydantic-settings",
+      "requirement": "typing-extensions>=4.0.0",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "pydantic-settings",
+      "requirement": "typing-inspection>=0.4.0",
+      "child": "typing-inspection",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "0.4.4",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "pydantic-settings",
+      "requirement": "boto3>=1.35.0; extra == 'aws-secrets-manager'",
+      "child": "boto3",
+      "child_requested_extras": [],
+      "marker": "extra == \"aws-secrets-manager\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pydantic-settings",
+      "requirement": "boto3>=1.35.0; extra == 'aws-systems-manager'",
+      "child": "boto3",
+      "child_requested_extras": [],
+      "marker": "extra == \"aws-systems-manager\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pydantic-settings",
+      "requirement": "azure-identity>=1.16.0; extra == 'azure-key-vault'",
+      "child": "azure-identity",
+      "child_requested_extras": [],
+      "marker": "extra == \"azure-key-vault\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pydantic-settings",
+      "requirement": "azure-keyvault-secrets>=4.8.0; extra == 'azure-key-vault'",
+      "child": "azure-keyvault-secrets",
+      "child_requested_extras": [],
+      "marker": "extra == \"azure-key-vault\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pydantic-settings",
+      "requirement": "google-cloud-secret-manager>=2.23.1; extra == 'gcp-secret-manager'",
+      "child": "google-cloud-secret-manager",
+      "child_requested_extras": [],
+      "marker": "extra == \"gcp-secret-manager\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pydantic-settings",
+      "requirement": "pyyaml>=6.0.1; extra == 'yaml'",
+      "child": "pyyaml",
+      "child_requested_extras": [],
+      "marker": "extra == \"yaml\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pyjwt",
+      "requirement": "typing_extensions>=4.0; python_version < \"3.11\"",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": "python_version < \"3.11\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "pyjwt",
+      "requirement": "cryptography>=3.4.0; extra == \"crypto\"",
+      "child": "cryptography",
+      "child_requested_extras": [],
+      "marker": "extra == \"crypto\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "46.0.7",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "python-dateutil",
+      "requirement": "six>=1.6",
+      "child": "six",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "1.17.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "python-dateutil",
+      "requirement": "tzdata",
+      "child": "tzdata",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "2026.5",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "python-dotenv",
+      "requirement": "click>=5.0; extra == \"cli\"",
+      "child": "click",
+      "child_requested_extras": [],
+      "marker": "extra == \"cli\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "8.5.0",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "redis",
+      "requirement": "PyJWT>=2.9.0",
+      "child": "pyjwt",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true,
+        "hiredis": true
+      },
+      "selected": true,
+      "installed_version": "2.15.1",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "redis",
+      "requirement": "async-timeout>=4.0.3; python_full_version < \"3.11.3\"",
+      "child": "async-timeout",
+      "child_requested_extras": [],
+      "marker": "python_full_version < \"3.11.3\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "hiredis": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "redis",
+      "requirement": "hiredis>=3.0.0; extra == \"hiredis\"",
+      "child": "hiredis",
+      "child_requested_extras": [],
+      "marker": "extra == \"hiredis\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "hiredis": true
+      },
+      "selected": true,
+      "installed_version": "3.5.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "redis",
+      "requirement": "cryptography>=36.0.1; extra == \"ocsp\"",
+      "child": "cryptography",
+      "child_requested_extras": [],
+      "marker": "extra == \"ocsp\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "hiredis": false
+      },
+      "selected": false,
+      "installed_version": "46.0.7",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "redis",
+      "requirement": "pyopenssl==23.2.1; extra == \"ocsp\"",
+      "child": "pyopenssl",
+      "child_requested_extras": [],
+      "marker": "extra == \"ocsp\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "hiredis": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "redis",
+      "requirement": "requests>=2.31.0; extra == \"ocsp\"",
+      "child": "requests",
+      "child_requested_extras": [],
+      "marker": "extra == \"ocsp\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "hiredis": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "importlib-metadata; python_version < \"3.8\"",
+      "child": "importlib-metadata",
+      "child_requested_extras": [],
+      "marker": "python_version < \"3.8\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "greenlet>=1; platform_machine == \"aarch64\" or (platform_machine == \"ppc64le\" or (platform_machine == \"x86_64\" or (platform_machine == \"amd64\" or (platform_machine == \"AMD64\" or (platform_machine == \"win32\" or platform_machine == \"WIN32\")))))",
+      "child": "greenlet",
+      "child_requested_extras": [],
+      "marker": "platform_machine == \"aarch64\" or (platform_machine == \"ppc64le\" or (platform_machine == \"x86_64\" or (platform_machine == \"amd64\" or (platform_machine == \"AMD64\" or (platform_machine == \"win32\" or platform_machine == \"WIN32\")))))",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": "3.5.6",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "typing-extensions>=4.6.0",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true,
+        "asyncio": true
+      },
+      "selected": true,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "greenlet>=1; extra == \"asyncio\"",
+      "child": "greenlet",
+      "child_requested_extras": [],
+      "marker": "extra == \"asyncio\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": true
+      },
+      "selected": true,
+      "installed_version": "3.5.6",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "mypy>=0.910; extra == \"mypy\"",
+      "child": "mypy",
+      "child_requested_extras": [],
+      "marker": "extra == \"mypy\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "pyodbc; extra == \"mssql\"",
+      "child": "pyodbc",
+      "child_requested_extras": [],
+      "marker": "extra == \"mssql\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "pymssql; extra == \"mssql-pymssql\"",
+      "child": "pymssql",
+      "child_requested_extras": [],
+      "marker": "extra == \"mssql-pymssql\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "pyodbc; extra == \"mssql-pyodbc\"",
+      "child": "pyodbc",
+      "child_requested_extras": [],
+      "marker": "extra == \"mssql-pyodbc\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "mysqlclient>=1.4.0; extra == \"mysql\"",
+      "child": "mysqlclient",
+      "child_requested_extras": [],
+      "marker": "extra == \"mysql\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "mysql-connector-python; extra == \"mysql-connector\"",
+      "child": "mysql-connector-python",
+      "child_requested_extras": [],
+      "marker": "extra == \"mysql-connector\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "mariadb!=1.1.10,!=1.1.2,!=1.1.5,>=1.0.1; extra == \"mariadb-connector\"",
+      "child": "mariadb",
+      "child_requested_extras": [],
+      "marker": "extra == \"mariadb-connector\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "cx_oracle>=8; extra == \"oracle\"",
+      "child": "cx-oracle",
+      "child_requested_extras": [],
+      "marker": "extra == \"oracle\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "oracledb>=1.0.1; extra == \"oracle-oracledb\"",
+      "child": "oracledb",
+      "child_requested_extras": [],
+      "marker": "extra == \"oracle-oracledb\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "psycopg2>=2.7; extra == \"postgresql\"",
+      "child": "psycopg2",
+      "child_requested_extras": [],
+      "marker": "extra == \"postgresql\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "pg8000>=1.29.1; extra == \"postgresql-pg8000\"",
+      "child": "pg8000",
+      "child_requested_extras": [],
+      "marker": "extra == \"postgresql-pg8000\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "greenlet>=1; extra == \"postgresql-asyncpg\"",
+      "child": "greenlet",
+      "child_requested_extras": [],
+      "marker": "extra == \"postgresql-asyncpg\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": "3.5.6",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "asyncpg; extra == \"postgresql-asyncpg\"",
+      "child": "asyncpg",
+      "child_requested_extras": [],
+      "marker": "extra == \"postgresql-asyncpg\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": "0.32.0",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "psycopg2-binary; extra == \"postgresql-psycopg2binary\"",
+      "child": "psycopg2-binary",
+      "child_requested_extras": [],
+      "marker": "extra == \"postgresql-psycopg2binary\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "psycopg2cffi; extra == \"postgresql-psycopg2cffi\"",
+      "child": "psycopg2cffi",
+      "child_requested_extras": [],
+      "marker": "extra == \"postgresql-psycopg2cffi\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "psycopg>=3.0.7; extra == \"postgresql-psycopg\"",
+      "child": "psycopg",
+      "child_requested_extras": [],
+      "marker": "extra == \"postgresql-psycopg\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "psycopg[binary]>=3.0.7; extra == \"postgresql-psycopgbinary\"",
+      "child": "psycopg",
+      "child_requested_extras": [
+        "binary"
+      ],
+      "marker": "extra == \"postgresql-psycopgbinary\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "pymysql; extra == \"pymysql\"",
+      "child": "pymysql",
+      "child_requested_extras": [],
+      "marker": "extra == \"pymysql\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "greenlet>=1; extra == \"aiomysql\"",
+      "child": "greenlet",
+      "child_requested_extras": [],
+      "marker": "extra == \"aiomysql\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": "3.5.6",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "aiomysql>=0.2.0; extra == \"aiomysql\"",
+      "child": "aiomysql",
+      "child_requested_extras": [],
+      "marker": "extra == \"aiomysql\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "greenlet>=1; extra == \"aioodbc\"",
+      "child": "greenlet",
+      "child_requested_extras": [],
+      "marker": "extra == \"aioodbc\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": "3.5.6",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "aioodbc; extra == \"aioodbc\"",
+      "child": "aioodbc",
+      "child_requested_extras": [],
+      "marker": "extra == \"aioodbc\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "greenlet>=1; extra == \"asyncmy\"",
+      "child": "greenlet",
+      "child_requested_extras": [],
+      "marker": "extra == \"asyncmy\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": "3.5.6",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "asyncmy>=0.2.12; extra == \"asyncmy\"",
+      "child": "asyncmy",
+      "child_requested_extras": [],
+      "marker": "extra == \"asyncmy\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "greenlet>=1; extra == \"aiosqlite\"",
+      "child": "greenlet",
+      "child_requested_extras": [],
+      "marker": "extra == \"aiosqlite\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": "3.5.6",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "aiosqlite; extra == \"aiosqlite\"",
+      "child": "aiosqlite",
+      "child_requested_extras": [],
+      "marker": "extra == \"aiosqlite\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "typing_extensions!=3.10.0.1; extra == \"aiosqlite\"",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": "extra == \"aiosqlite\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "sqlalchemy",
+      "requirement": "sqlcipher3_binary; extra == \"sqlcipher\"",
+      "child": "sqlcipher3-binary",
+      "child_requested_extras": [],
+      "marker": "extra == \"sqlcipher\"",
+      "marker_results_by_parent_extra": {
+        "": false,
+        "asyncio": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "starlette",
+      "requirement": "anyio<5,>=4.0.0",
+      "child": "anyio",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "4.15.1",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "starlette",
+      "requirement": "typing-extensions>=4.10.0; python_version < '3.13'",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": "python_version < \"3.13\"",
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "starlette",
+      "requirement": "httpx2>=2.0.0; extra == 'full'",
+      "child": "httpx2",
+      "child_requested_extras": [],
+      "marker": "extra == \"full\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "starlette",
+      "requirement": "httpx<0.29.0,>=0.27.0; extra == 'full'",
+      "child": "httpx",
+      "child_requested_extras": [],
+      "marker": "extra == \"full\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "starlette",
+      "requirement": "itsdangerous; extra == 'full'",
+      "child": "itsdangerous",
+      "child_requested_extras": [],
+      "marker": "extra == \"full\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "starlette",
+      "requirement": "jinja2; extra == 'full'",
+      "child": "jinja2",
+      "child_requested_extras": [],
+      "marker": "extra == \"full\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "starlette",
+      "requirement": "opentelemetry-api; extra == 'full'",
+      "child": "opentelemetry-api",
+      "child_requested_extras": [],
+      "marker": "extra == \"full\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "1.45.1",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "starlette",
+      "requirement": "python-multipart>=0.0.18; extra == 'full'",
+      "child": "python-multipart",
+      "child_requested_extras": [],
+      "marker": "extra == \"full\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "0.0.32",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "starlette",
+      "requirement": "pyyaml; extra == 'full'",
+      "child": "pyyaml",
+      "child_requested_extras": [],
+      "marker": "extra == \"full\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "typing-inspection",
+      "requirement": "typing-extensions>=4.15.0",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "uvicorn",
+      "requirement": "click>=7.0",
+      "child": "click",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "8.5.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "uvicorn",
+      "requirement": "h11>=0.8",
+      "child": "h11",
+      "child_requested_extras": [],
+      "marker": null,
+      "marker_results_by_parent_extra": {
+        "": true
+      },
+      "selected": true,
+      "installed_version": "0.16.0",
+      "specifier_satisfied": true
+    },
+    {
+      "parent": "uvicorn",
+      "requirement": "typing-extensions>=4.0; python_version < '3.11'",
+      "child": "typing-extensions",
+      "child_requested_extras": [],
+      "marker": "python_version < \"3.11\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "4.16.0",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "uvicorn",
+      "requirement": "httptools>=0.8.0; extra == 'standard'",
+      "child": "httptools",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "uvicorn",
+      "requirement": "python-dotenv>=0.13; extra == 'standard'",
+      "child": "python-dotenv",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": "1.2.4",
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "uvicorn",
+      "requirement": "pyyaml>=5.1; extra == 'standard'",
+      "child": "pyyaml",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "uvicorn",
+      "requirement": "uvloop>=0.15.1; (sys_platform != 'win32' and (sys_platform != 'cygwin' and platform_python_implementation != 'PyPy')) and extra == 'standard'",
+      "child": "uvloop",
+      "child_requested_extras": [],
+      "marker": "(sys_platform != \"win32\" and (sys_platform != \"cygwin\" and platform_python_implementation != \"PyPy\")) and extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "uvicorn",
+      "requirement": "watchfiles>=0.20; extra == 'standard'",
+      "child": "watchfiles",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    },
+    {
+      "parent": "uvicorn",
+      "requirement": "websockets>=13.0; extra == 'standard'",
+      "child": "websockets",
+      "child_requested_extras": [],
+      "marker": "extra == \"standard\"",
+      "marker_results_by_parent_extra": {
+        "": false
+      },
+      "selected": false,
+      "installed_version": null,
+      "specifier_satisfied": null
+    }
+  ],
+  "unresolved": []
+}

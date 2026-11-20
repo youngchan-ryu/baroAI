@@ -1,0 +1,22 @@
+.product-shell .ticket-status, .product-shell .ticket-heading > .ticket-status { font-size:13px; color:#4e626c; background:#edf1f2; }
+
+.product-shell .ticket-status.state-received {
+  color: #1e4d83;
+  background: #e6effa;
+}
+
+.product-shell .ticket-status.state-completed {
+  color: #236142;
+  background: #dff2e5;
+}
+
+.product-shell .ticket-status.state-completed::before {
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 4px;
+  margin-right: 6px;
+  border: solid currentColor;
+  border-width: 0 0 2px 2px;
+  transform: translateY(-1px) rotate(-45deg);
+}

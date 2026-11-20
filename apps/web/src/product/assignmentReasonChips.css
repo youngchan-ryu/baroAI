@@ -1,0 +1,3 @@
+.assignment-reason-chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+.assignment-reason-chips button { min-height:44px; padding:8px 12px; border:1px solid #a7bbc0; border-radius:8px; background:#fff; color:#28515d; text-align:left; }
+.assignment-reason-chips button:focus-visible { outline:3px solid #16758a; outline-offset:2px; }

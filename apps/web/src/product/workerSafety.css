@@ -1,0 +1,4 @@
+.worker-safety { border: 1px solid #d7dde4; border-radius: 0.75rem; padding: 1rem; margin-block: 1rem; background: #f7f8fa; }
+.worker-safety p { margin: 0.4rem 0 0; }
+.worker-safety.urgent { border-color: #b42318; background: #fff1f0; color: #912018; }
+.worker-safety.priority { border-color: #b54708; background: #fff6e9; color: #93370d; }

@@ -1,0 +1,18 @@
+.worker-list-card { display: block; min-width: 0; }
+.worker-destination { margin-block: 16px; }
+.worker-list-card .worker-list-location { display: block; overflow: visible; -webkit-line-clamp: unset; margin: 0 0 12px; color: #183c49; font-size: 19px; line-height: 1.45; overflow-wrap: anywhere; word-break: normal; }
+.worker-list-card .worker-list-step { margin: 14px 0 4px; color: #1c5e65; font-size: 14px; font-weight: 700; overflow-wrap: anywhere; }
+.worker-list-card .worker-list-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin: 14px 0 0; color: #657b85; font-size: 12px; overflow-wrap: anywhere; }
+.worker-list-card:focus-visible { outline: 3px solid #237b7e; outline-offset: 3px; }
+.worker-list-card .worker-list-detail { color: #1c686d; font-weight: 700; margin-left: auto; }
+.worker-progress { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; }
+.worker-progress [aria-current="step"] { font-weight: 700; color: #12575d; }
+.product-shell .worker-action-bar .button { min-height: 48px; }
+.worker-safety-badge { display: inline-block; border-radius: 1rem; padding: .25rem .65rem; font-weight: 700; }
+.worker-safety-badge.urgent { background: #fff1f0; color: #912018; }
+.worker-safety-badge.priority { background: #fff6e9; color: #93370d; }
+@media (max-width: 600px) {
+  .worker-action-bar { position: fixed; z-index: 10; bottom: 0; left: 0; right: 0; padding: 8px 16px max(8px, env(safe-area-inset-bottom)); background: #fff; box-shadow: 0 -2px 12px #192f421a; }
+  .worker-layout { padding-bottom: calc(80px + env(safe-area-inset-bottom)); }
+  .worker-layout:has(.report-form :is(input, textarea, select):focus) .worker-action-bar { display: none; }
+}

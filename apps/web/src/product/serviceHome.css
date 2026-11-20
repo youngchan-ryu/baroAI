@@ -1,0 +1,17 @@
+.service-home-hero { padding:64px 0 48px; }
+.service-home .service-home-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:26px; }
+.service-home .service-home-actions .button { min-height:48px; }
+.service-staff-link { display:inline-flex; align-items:center; min-height:44px; margin-top:10px; color:#35666c; font-size:14px; font-weight:700; text-decoration:underline !important; text-underline-offset:3px; }
+.service-home-steps { border-top:1px solid #dde5e7; padding:32px 0 48px; }
+.service-home-steps h2 { margin-bottom:20px; }
+.service-home-steps ol { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; padding:0; margin:0; list-style:none; }
+.service-home-steps li { min-width:0; padding:20px; border:1px solid #dce7e5; border-radius:12px; background:#fff; }
+.service-home-steps li span { display:block; color:#5e888a; font-size:12px; font-weight:700; margin-bottom:8px; }
+.service-home-steps li strong { color:#193b47; font-size:16px; }
+.service-home-steps li p { margin:8px 0 0; color:#5e7280; font-size:14px; }
+@media (max-width:600px) {
+  .service-home-hero { padding:36px 0 28px; }
+  .service-home-steps { padding:24px 0 32px; }
+  .service-home-steps ol { grid-template-columns:1fr; }
+  .service-home-steps li { padding:14px 16px; }
+}

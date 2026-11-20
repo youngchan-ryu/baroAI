@@ -1,0 +1,20 @@
+.export-workflow .export-stage {
+  min-width: 0;
+  margin: 0;
+}
+
+.export-workflow .export-stage label {
+  display: block;
+  margin: 12px 0;
+}
+
+.export-workflow .export-stage textarea,
+.export-workflow .export-stage input:not([type='checkbox']),
+.export-workflow .export-stage select {
+  display: block;
+  max-width: 100%;
+}
+
+.export-workflow .export-stage button {
+  margin-top: 8px;
+}

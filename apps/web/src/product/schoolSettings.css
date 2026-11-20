@@ -1,0 +1,30 @@
+/* School configuration and assignment controls share the product's existing palette. */
+.school-settings { max-width: 880px; }
+.school-settings .content-card { min-width: 0; overflow-wrap: anywhere; }
+.school-settings .school-status { background: #f0f8f5; border-color: #cfe5dc; }
+.school-settings .school-status p { margin: 6px 0; }
+.school-settings .school-dataset-metadata { color: #536f70; font-size: 12px; }
+.school-settings .school-upload { display: flex; flex-wrap: wrap; align-items: end; gap: 10px 16px; margin-top: 20px; padding: 16px; border: 1px solid #d9e8e3; border-radius: 10px; background: #f8fbfa; }
+.school-settings .school-upload label { flex: 1 1 240px; min-width: 0; margin: 0; }
+.school-settings .school-upload input[type=file] { display: block; width: 100%; max-width: 100%; margin-top: 8px; font: inherit; }
+.school-settings .school-upload p { flex-basis: 100%; margin: 0; }
+.school-settings .school-preview-heading { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); }
+.school-settings .school-workers .schedule-editor { padding: 8px 12px; margin: 8px 0; border: 1px solid #dce9e4; border-radius: 9px; background: #fbfdfc; }
+.school-settings .schedule-editor summary { color: #285b59; font-weight: 650; overflow-wrap: anywhere; }
+.school-settings #worker-schedules { margin: 24px 0; padding-top: 20px; border-top: 1px solid var(--line); }
+.school-settings #worker-schedules h3 { margin-bottom: 12px; }
+.school-settings select, .assignment-form select { cursor: pointer; }
+.school-settings :is(button, summary, a):focus-visible, .assignment-form :is(button, a):focus-visible { outline: 2px solid #1b6f75; outline-offset: 3px; }
+.assignment-form { min-width: 0; overflow-wrap: anywhere; }
+.assignment-form fieldset > label { color: #285b59; font-weight: 700; }
+.assignment-form select { border-color: #a9c8c1; background-color: #fafffd; }
+.assignment-form > .button.primary { margin-top: 8px; }
+@media (max-width: 760px) {
+  .school-settings .school-upload .button { width: 100%; }
+  .school-settings select, .assignment-form select { font-size: 16px; }
+}
+
+.school-summary { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-top: 16px; }
+.school-summary div { display: grid; gap: 6px; padding: 14px; border: 1px solid #cfe5dc; border-radius: 10px; background: white; }
+.school-import > summary { cursor: pointer; font-weight: 700; }
+@media (max-width: 600px) { .school-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

@@ -1,0 +1,13 @@
+.report-photo-comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 20px 0; }
+.report-photo-comparison > section { min-width: 0; }
+.report-photo-comparison h3 { margin: 0 0 8px; }
+.report-photo-comparison .private-photo { width: 100%; min-width: 0; }
+.approval-reason-chips { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
+.product-shell .report-waiting > :is(h2, p) { margin-bottom: 12px; }
+.product-shell .report-optional { margin-block: 14px 18px; }
+.product-shell .report-optional > summary { color: #1f515f; cursor: pointer; margin-bottom: 12px; }
+.product-shell .report-optional > label { display: grid; gap: 6px; margin-top: 12px; }
+.product-shell .report-next-action { margin: 0 0 15px; }
+.product-shell .report-action-options { display: flex; flex-wrap: wrap; gap: 8px; margin-block: 8px 12px; }
+.product-shell .report-action-options .button { white-space: normal; text-align: left; }
+.product-shell .report-action-options [aria-pressed='true'] { border-color: #23736e; background: #e4f3ef; }

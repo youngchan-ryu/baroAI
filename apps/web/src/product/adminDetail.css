@@ -1,0 +1,26 @@
+/* Keep review alongside the report only when a review action is present. */
+.product-shell .admin-layout { display: grid; max-width: 760px; grid-template-columns: minmax(0, 1fr); gap: 16px; }
+.admin-primary, .admin-review, .admin-extras { min-width: 0; }
+.admin-visit-summary { min-width: 0; padding: 20px 22px; }
+.admin-visit-summary h2 { font-size: 17px; }
+.admin-visit-summary .ticket-facts { margin: 14px 0 0; padding: 12px 0 0; border-bottom: 0; gap: 8px; }
+.admin-visit-summary .ticket-facts dt { width: 96px; }
+@media (min-width: 900px) {
+  .product-shell .admin-layout.has-review {
+    max-width: none;
+    grid-template-columns: minmax(0, 1fr) minmax(340px, 0.9fr);
+    grid-template-areas: 'primary review' 'extras review';
+    gap: 16px 24px;
+    align-items: start;
+  }
+  .admin-layout.has-review .admin-primary { grid-area: primary; }
+  .admin-layout.has-review .admin-review { grid-area: review; position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow-y: auto; overscroll-behavior: contain; }
+  .admin-layout.has-review .admin-extras { grid-area: extras; }
+  .product-shell .admin-layout.has-review.has-visit-summary {
+    grid-template-areas: 'primary visit' 'primary review' 'extras review';
+    grid-template-rows: auto minmax(0, 1fr) auto;
+  }
+  .admin-layout.has-review .admin-visit-summary { grid-area: visit; }
+}
+.worker-recommendation-row { width:100%; text-align:left; cursor:pointer; font:inherit; }
+.worker-recommendation-row[aria-pressed="true"] { border-color:#17636a; background:#edf7f5; }

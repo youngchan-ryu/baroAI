@@ -1,0 +1,68 @@
+.product-shell :is(.reporter-detail .detail-main, .admin-primary, .admin-extras) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-content: start;
+  gap: 18px;
+}
+.product-shell .reporter-detail .notification-slot:empty { display: none; }
+.product-shell :is(.followup-card, .information-panel, .assignment-place-panel) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 14px;
+}
+.product-shell :is(.followup-card, .information-panel, .assignment-place-panel) > :is(h2,h3,p,div) { margin-block: 0; }
+.product-shell :is(.followup-question, .staff-question-form, .location-draft-reason, .information-answer, .admin-details-body) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+}
+.product-shell .followup-question {
+  padding: 14px;
+  border: 1px solid #dce6e6;
+  border-radius: 14px;
+  background: #f8fbfa;
+}
+.product-shell :is(.followup-choices, .detail-controls) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  align-items: center;
+}
+.product-shell .button.followup-choice { border-radius: 22px; min-height: 42px; padding: 7px 14px; white-space: normal; }
+.product-shell :is(.followup-choice, .question-suggestion, .assignment-place-option)[aria-pressed="true"] {
+  color: #154a4c;
+  background: #e4f3ef;
+  border-color: #23736e;
+  box-shadow: inset 0 0 0 1px #23736e;
+}
+.product-shell .followup-consent { display: flex; align-items: start; gap: 9px; }
+.product-shell .followup-consent input { margin-top: .3em; flex: 0 0 auto; }
+.product-shell :is(.question-suggestions, .assignment-place-options) { display: grid; gap: 8px; }
+.product-shell :is(.question-suggestion, .assignment-place-option) {
+  width: 100%;
+  min-height: 44px;
+  text-align: start;
+  justify-content: start;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.product-shell .staff-question-form .detail-controls { margin-top: 4px; }
+.product-shell :is(.staff-question-form,.information-answer) textarea { width: 100%; margin: 0; }
+.product-shell .information-item + .information-item { border-top: 1px solid #dce6e6; padding-top: 16px; }
+.product-shell :is(.admin-details-body,.admin-question-slot) {
+  padding: 0;
+  border: 0;
+  min-width: 0;
+  margin: 0;
+}
+.product-shell .admin-detail-disclosure > summary { margin-bottom: 12px; }
+.product-shell .location-provenance { display: block; margin-block: 4px 0; }
+.product-shell .assignment-place-option { display: grid; gap: 3px; }
+.product-shell .location-draft-reason > label { display: grid; gap: 6px; }
+.product-shell :is(.assignment-location-field, .assignment-confirmed-place) { display: grid; gap: 6px; margin-block: 12px; }
+.product-shell .assignment-confirmed-place > :is(p, strong, a) { margin: 0; }
+.product-shell .assignment-confirmed-place a { justify-self: start; }
+@media(max-width: 480px) {
+  .product-shell :is(.reporter-detail .detail-main, .admin-primary, .admin-extras) { gap: 14px; }
+  .product-shell .followup-question { padding: 12px; }
+}
