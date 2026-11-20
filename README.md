@@ -21,6 +21,7 @@
 
 <p align="center">
   <a href="#시연-화면">시연 화면</a> ·
+  <a href="#본선-포스터">본선 포스터</a> ·
   <a href="#시작하기">시작하기</a> ·
   <a href="#실제-서비스-실행">실제 서비스</a> ·
   <a href="#데이터-저장-방식">데이터 저장 방식</a> ·
@@ -46,6 +47,12 @@
 </p>
 
 </details>
+
+## 본선 포스터
+
+<p align="center">
+  <a href="./docs/submission/media/poster.png"><img src="./docs/submission/media/poster.png" alt="신고부터 회신까지의 업무 흐름, 안전장치, 합성 사례 검증 결과를 담은 팀 BRIDGE 본선 포스터" width="760" /></a>
+</p>
 
 ## 업무 흐름
 

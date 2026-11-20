@@ -20,6 +20,7 @@
 
 <p align="center">
   <a href="#demo">Demo</a> ·
+  <a href="#competition-poster">Competition poster</a> ·
   <a href="#quick-start">Quick start</a> ·
   <a href="#run-the-live-service">Live service</a> ·
   <a href="#how-data-is-stored">How data is stored</a> ·
@@ -45,6 +46,12 @@ The local demo includes 15 synthetic reports at different stages of the workflow
 </p>
 
 </details>
+
+## Competition poster
+
+<p align="center">
+  <a href="./docs/submission/media/poster.png"><img src="./docs/submission/media/poster.png" alt="Team BRIDGE’s Korean-language competition poster showing the reporting workflow, safety checks, and results from synthetic cases" width="760" /></a>
+</p>
 
 ## How it works
 
