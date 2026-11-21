@@ -50,8 +50,10 @@ The local demo includes 15 synthetic reports at different stages of the workflow
 ## Competition poster
 
 <p align="center">
-  <a href="./docs/submission/media/poster.png"><img src="./docs/submission/media/poster.png" alt="Team BRIDGE’s Korean-language competition poster showing the reporting workflow, safety checks, and results from synthetic cases" width="760" /></a>
+  <a href="./docs/submission/media/poster.en.png"><img src="./docs/submission/media/poster.en.png" alt="Team BRIDGE’s competition poster, English edition, showing the reporting workflow, safety checks, and measured response time and cost on synthetic cases" width="760" /></a>
 </p>
+
+*English edition of the poster. The competition entry was in Korean: [see the Korean poster](./docs/submission/media/poster.png). App screens on the poster are in Korean.*
 
 ## How it works
 
